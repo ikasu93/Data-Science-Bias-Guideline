@@ -62,3 +62,66 @@ In 2018, an image search for women CEOs showed fewer results as there were only 
 Recognizing historical bias requires a retrospective understanding of the application and data generation process over time. Historical bias is often concerned with demonstrating the representational harms (such as reinforcing a stereotype) against a distinct group [15].
 
 
+## Data Scrubbing Phase
+
+#### Exclusion Bias
+Data cleansing is an essential phase of the data science lifecycle that comes after data collection. In ethical perspective, removal of corrupt or unethical data involving both upper and lower extremes and exceptions is crucially important. For instance, outliers (values that deviate from the pattern) and duplications, from big raw data to make it less redundant, more consistent and reliable for model training. Since excluding un-actionable and duplicate insights is an important part while cleaning noise from the data, experts get biased while they get into it. Exclusion bias occurs when data handlers do not identify and remove the undesired chunks of data that should be removed in order to make data ethical and to maintain the accuracy of the results [23].
+* **Example 1:**
+We do customer profiling and find out that the average annual income of customers is $0.8 million. But, there are two customers having annual income of $4 and $4.2 million. These two observations will be seen as Outliers. Exclusion bias will occur if data managers do not exclude these two customers as their annual income is much higher than the rest of the population [24]. Exclusion bias can also arise when some important chunk is deleted from the data source while refining the data.
+* **Example 2:**
+Exclusion of subjects who have recently migrated into the study area (this may occur when newcomers are not available in a register used to identify the source population). Excluding subjects who move out of the study area during follow-up is rather equivalent to dropout or non-response, a selection bias in that it rather affects the internal validity of the study [25]. 
+* **Best Practices:**
+To avoid this bias, file manipulators and data scientists should have intimate knowledge of data attributes, database sources as well as the data collection process in order to verify what to exclude or not (ethical exclusion). Secondly, extreme values from the data can be precisely detected through various techniques including k-Nearest Neighbor technique, ARIMA methodology, Regression analysis [26] or an Angel-based Outlier Detection [27]. 
+
+#### Data Enrichment Bias
+After excluding outliers, data should be structured properly via managing the abnormal segments and missing segments. Organizing the available data means eliminating typos or grammatical mistakes from the data, and handling the missing data that is because of incomplete responses from the participants (Non-response bias). Data enrichment bias occurs due to typing mistakes of data entry operators or when they misinterpret the context of data and add the wrong input (extreme input) to fulfill empty fields [28]. Data cleaning though is the time consuming task but it can ultimately improve the decision making process.
+* **Example:**
+Imagine a data entry operator mistakenly type “Hspital” instead of “Hospital” or evaluates the student pass having less than 50% marks while others are fail in the list having same percentage.
+* **Best Practices:**
+The serendipitous search in AI algorithms has enough potential to mitigate data-enrichment bias by exploring the unexplored parts through different ranking parameters [29]. A quality assurance committee having diverse experience of several disciplines should be formalized to review the data sources repetitively from the lens of morality to ensure fairness and reduce data discrimination [29]. Using techniques like Kernel-based local outlier factor (LOF) to identify the incorrect data can be helpful [28]. Furthermore, data dealers can create a separate category for records having missing values or flag them with “0” (if numeric) to make the algorithm aware of it [30].
+You can find an additional example at https://theconversation.com/data-ethics-is-more-than-just-what-we-do-with-data-its-also-about-whos-doing-it-98010.
+
+## Data Visualization Phase
+### Cognitive Biases
+A picture speaks louder than words. Studies have shown that visual transformations of data actually affect the data that impacts both decision making and the results. Tools that present data into the visual formats always try to make visualization easy for the auditors and by doing so, they may alter the original pattern of data [31]. Such improperly created graphs can trigger cognitive biases for the viewers [32]. Five types of cognitive biases are discussed in [33].
+
+#### 1.	Data Visualization and Framing Effect: 
+Individuals respond to a particular problem in different ways depending upon how the problem is framed to them, a bias is called framing effect [34]. Data visualization tools often prioritize the data in the most comprehensible way. Meanwhile, they mostly alter the original sequence of data and trigger the framing bias for the auditor to cope with.   
+* **Example:** 
+Graph highlights that 30 percent (70 percent) of a client’s usual trade credits from suppliers are denied (awarded) might impact auditors’ assessment of the probability and severity of their audit client’s financial difficulties, which is one of the key conditions of an entity’s ability to continue as a going concern (AU 341.06 An Entity’s Ability to Continue as Going Concern, Consideration of Conditions and Events). Due to the framing effect, auditors who receive or process the negatively framed information (credit denial) are more likely to have substantial doubt about the client’s ability to continue as a going concern. Therefore, improperly designed visualizations can trigger and/or aggravate framing effects [33].
+* **Best Practices:**
+Data analysts should use visualization tools strategically, let say, use an effective tool at the early stage of lifecycle [35].
+ 
+#### 2.	Data Visualization and Availability Bias: 
+Availability bias relates to the survivorship bias expressing the tendency to use the already available information and consider such information more relevant than evidence that is hard to attain. Data visualization directly enhances the vividness and evaluability of data that influence availability bias but on the other hand, it compromises the overall quality of making effective decisions [31].
+* **Example:**
+After reading an article about lottery winners, you start to overestimate your own likelihood of winning the jackpot. You start spending more money than you should each week on lottery tickets [36], [37].
+* **Best Practice:**
+People should spend proper time and effort contemplating other options, to properly weight them in terms of how well they meet the objective, or to consider the reliability, validity, certainty and accuracy of information [38].
+
+#### 3.	Data visualization and Overconfidence Bias: 
+Overconfidence bias refers to an analyst’s tendency to “overestimate their own ability to perform tasks or to make accurate diagnoses or other judgments and decisions” [39]. Generally, the decision makers feel more confident in the graphical visualization of the data as compared to the textual format. Overconfidence leads to less cautious behavior that can be dangerous while making sensitive decisions.
+* **Example:** 
+In a survey conducted of 300 fund managers, asking if they believe in their managerial abilities with options average, above average and below average. Figures show that 74% believed that they were above average and of the remaining 26% thought they were average. While no one thought that he/she was below average. So, it’s clear that these findings are statistically impossible or manipulated which is not suitable for data modeling [40]. 
+* **Best Practice:**
+Overconfidence can lead to overestimation and over-precision that is intolerable in statistical analysis. Therefore, one can channelize his/her overconfidence by creating scientific a mindset, by challenging his viewpoints, by listening to the criticism and by constant learning attitude [41].
+
+#### 4.	Data visualization and Anchoring Bias: 
+Anchoring bias refers to the situation in which individuals rely too much on the initial piece of information offered and make future decisions by using this information. While visualizing data, anchoring bias may disturb the future interpretations and evaluations of insights coming from the same data based on preliminary evidence [33]. 
+* **Example:**
+Ecommerce stores take benefits by using anchoring techniques by showing costly things first. Seeing $500 shirts first and $60 shirts at the second place, one will be prone to see the second shirt cheap.
+* **Best Practice:**
+Critical thinking can be beneficial in avoiding it. One can study his/her own anchoring behavior and analyze its prospects. Making future decisions based on historical patterns can also limit anchoring bias. Asking your  colleague for the review is not a bad choice [42].
+
+#### 5.	Data Visualization, Confirmation Bias and Signal Error: 
+One can be the victim of both confirmation bias and signal error when there is a huge amount of data in hand. Signal error occurs when data analysts just overlook the major gaps between the data that make it inconsistent or unreliable. On the other hand, confirmation bias is the situation in which model builders unconsciously process the subset of data visualization that confirm their prior feelings and viewpoints [43] [33] . In addition, a trainer may actually keep training a model until it produces a result that aligns with their original hypothesis; this is called experimenter's bias. All of these biases can impede while making decisions.
+* **Example:**
+Peter O. Gray [44] in his book presents an example of confirmation bias in the doctor’s diagnosis. He explained that a doctor forecasts the disease after asking some queries from the patient and looks for the evidence that tends to confirm his/her diagnosis while overseeing the sign that inclines to defeat his analysis. Same is the case with data scientists who mostly tend to ignore the data that contradicts their hypothesis that ultimately have negative impacts on the process. Therefore, a data scientist should know all his biases and think scientifically to avoid such blunders.
+* **Best Practices:**
+Confirmation Bias can be countered by continuously challenging your thoughts, by finding alternative sources of information and testing it [45]. 
+
+
+
+
+
+
