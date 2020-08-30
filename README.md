@@ -1,5 +1,16 @@
 # Data-Science-Bias-Guideline
 
+## Description
+### Tagging
+To tag keywords, please use the Jupyter notebook tagging tool, in which you unlock:
+1. "View" tab
+2. "Cell Toolbar"
+3. click on "Tags"
+
+Now you can create tags for each of your ln[...]. Please tag areas in your code where you have found biases, for example if you have algorithmic bias in your code, tag those ln[...] with "algorithmicbias".
+If you have this bias mitigated, you also tag the section with the method zusammengeschrieben e.g. "AIF360".
+
+
 ## Data Ingestion Phase
 ### Data Bias (Representation Bias)
 “A systematic distortion in the data that compromises its representativeness.” It is directly related to sampling that confirms whether the sample is representative of the larger population or not. It occurs during the data accumulation phase. Although capturing bias-free dataset is not feasible, data scientists can estimate the biasness in the data by comparing the sample with multiple samples having different contexts [1].
