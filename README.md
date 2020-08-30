@@ -180,3 +180,25 @@ Just recall the example 1 that is discussed in data Bias in the context of facia
 * **Best Practices:**
 To mitigate evaluation bias an approach namely Subgroup Evaluation can be used to comprehend the group matrices clearly by comparing them. Multiple metrics and confidence intervals is another useful technique in choosing relevant metrics for modeling [2], [76]. Targeted data augmentation (e.g., SMOTE) is also used to populate parts of the data distribution that are underrepresented [77].
 
+## Data Analysis Phase
+
+### Deployment Bias
+Deployment Bias occurs after model deployment, when a system is used or interpreted in inappropriate ways. A model is built to carry out a particular task but what happens when an autonomous model is moderated by institutional structure (also called Framing Trap) [78]or its recommendations would be interpreted erroneously by humans, a deployment bias will occur [79]. 
+* **Example:** 
+Risk assessment tools in the criminal justice system predict a risk score, but a judge may interpret this in unexpected ways before making his or her final decision [15].
+* **Best Practices:** 
+Testing the model in the real world environment can aid to minimize its harms. User training of the model could be an effective step to handle deployment bias. Ethical model training using unbiased and transparent data and careful planning can be helpful to get optimal results [80].     
+
+### Deployment Bias
+Deployment Bias occurs after model deployment, when a system is used or interpreted in inappropriate ways. A model is built to carry out a particular task but what happens when an autonomous model is moderated by institutional structure (also called Framing Trap) [78]or its recommendations would be interpreted erroneously by humans, a deployment bias will occur [79]. 
+* **Example:**
+Risk assessment tools in the criminal justice system predict a risk score, but a judge may interpret this in unexpected ways before making his or her final decision [15].
+* **Best Practices:**
+Testing the model in the real world environment can aid to minimize its harms. User training of the model could be an effective step to handle deployment bias. Ethical model training using unbiased and transparent data and careful planning can be helpful to get optimal results [80].     
+
+### Rescue Bias
+Rescue bias is an interpretive bias related to analyzer’s personal preconceptions that pumps him to discount the data by finding selective faults in a trial that undermines his/her expectations. In other words, it is a planned attempt to emasculate the findings and draw the pre-planned conclusions. One may fall for rescue bias after seeing the unexpected or below par ends of the experimentation [85].
+* **Example:**
+Binge eating disorder could be excluded from ICD-11 due to arguments that it might stigmatize people who eat a lot or individuals who have a high body mass index. However, given the elevated mortality and other health risks associated with eating disorders, this would have a significant adverse impact, particularly on young women [86].
+* **Best Practices:**
+To control the behavioral biases like this, data experts should think critically and try to be logical. Self-criticism or self-evaluation is one of the best ways to not be biased [45]. 
