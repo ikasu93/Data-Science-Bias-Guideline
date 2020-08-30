@@ -120,8 +120,45 @@ Peter O. Gray [44] in his book presents an example of confirmation bias in the d
 * **Best Practices:**
 Confirmation Bias can be countered by continuously challenging your thoughts, by finding alternative sources of information and testing it [45]. 
 
+## Data Modeling Phase
 
+### Algorithmic Bias
+Studies have shown the probability of unfairness in data is much greater than that of algorithms. More precisely, datasets are previously discriminated before passing through the algorithms that exhibit biased decisional pictures [46]. Machine learning algorithms based on AI, are commonly used while training the models in a supervised learning framework. Fairness is an increasingly important concern as autonomous models are used to support decision making in high-stakes applications such as mortgage lending, hiring, and prison sentencing [47]. To understand the responsibility of model failure, understanding the accountability matrix for algorithms is essential. Algorithmic bias is when an algorithm does not neutrally extract or transform the data. Scholars are trying hard to figure out the ways of mitigating the algorithmic biases present in Google searches, Facebook feeds, or in YouTube recommendations [48].
+* **Example:**
+Online retailer Amazon, whose global workforce is 60 percent male and where men hold 74 percent of the company’s managerial positions, recently discontinued use of a recruiting algorithm after discovering gender bias. The data that engineers used to create the algorithm were derived from the resumes submitted to Amazon over a 10-year period, which were predominantly from white males. The algorithm was taught to recognize word patterns in the resumes, rather than relevant skill sets, and these data were benchmarked against the company’s predominantly male engineering department to determine an applicant’s fit. As a result, the AI software penalized any resume that contained the word “women’s” in the text and downgraded the resumes of women who attended women’s colleges, resulting in gender bias [49].
+* **Sources of Algorithmic Bias**[48]:
+1.	Biased Training data can be the source of algorithmic bias.
+2.	Algorithms can be biased via differential use of information (using morally irrelevant categories to make morally relevant and sensitive judgements).
+3.	During the data processing, the algorithm can itself be biased, called Algorithm Processing Bias. The most obvious instance of algorithmic processing bias is the use of a statistically biased estimator in the algorithm for better future predictions. So, this bias mostly occurs due to deliberate choice.  
+4.	Algorithmic Bias can also occur when the specific model is employed outside of its context, commonly known as Transfer Context Bias. For instance, using an autonomous system worldwide that was designed to be used in US. It’s basically the User Bias but labelled as the “algorithmic bias”. 
+5.	Sometimes the information that an algorithm produces mismatch with the information that user expects, is known as Interpretation Bias. In the manual systems, misjudging the results of algorithms is actually the user bias but also notorious as “algorithmic bias”. In autonomous systems, biased judgments about causal structure or strength (i.e., that deviate from the actual causal structure in the world) can easily be misused in biased ways by autonomous systems. 
+6.	Algorithmic bias can occur when algorithms make decisions based on race, usually called Racial Bias. It may be due to the unintentional or open inclusion of racial characteristics by the developer in the databank or may be due to historical bias in data. Advanced healthcare systems rely on commercial prediction algorithms to identify and help patients with complex health needs, therefore, there are high risks attached with the biased predictions. A clear example of racial disparity is that Black patients are considerably sicker than White patients, as evidenced by signs of uncontrolled illnesses [50].
+* **Best Practices:** 
+**AIF360** is the first system to bring together in one open source toolkit: bias metrics, bias mitigation algorithms, bias metric explanations, and industrial usability. By integrating these aspects, AIF360 can enable stronger collaboration between AI fairness researchers and practitioners, helping to translate our collective research results to practicing data scientists, data engineers, and developers deploying solutions in a variety of industries [47].
 
+** Pre-Processing:
+1.	Disparate impact remover is a preprocessing technique that edits feature values increase group fairness while preserving rank-ordering within groups [51].
+2.	Learning fair representations is a pre-processing technique that finds a latent representation which encodes the data well but obfuscates information about protected attributes [52].
+3.	Optimized preprocessing is a preprocessing technique that learns a probabilistic transformation that edits the features and labels in the data with group fairness, individual distortion, and data fidelity constraints and objectives [53].
+4.	Reweighing is a preprocessing technique that weights the examples in each (group, label) combination differently to ensure fairness before classification [54]. 
+
+** In-Processing:
+1.	Adversarial debiasing is an in-processing technique that learns a classifier to maximize prediction accuracy and simultaneously reduce an adversary’s ability to determine the protected attribute from the predictions [55].
+2.	ART Classifier wraps an instance of an art.classifiers.Classifier to extend Transformer.
+3.	GerryFair Model is an algorithm for learning classifiers that are fair with respect to rich subgroups [56].
+4.	The meta algorithm here takes the fairness metric as part of the input and returns a classifier optimized w.r.t that fairness metric [57].
+5.	Prejudice remover is an in-processing technique that adds a discrimination-aware regularization term to the learning objective [58].
+
+** Post-Processing:
+1.	Calibrated equalized odds postprocessing is a post-processing technique that optimizes over calibrated classifier score outputs to find probabilities with which to change output labels with an equalized odds objective [59] .
+2.	Equalized odds postprocessing is a post-processing technique that solves a linear program to find probabilities with which to change output labels to optimize equalized odds [60].
+3.	Reject option classification is a postprocessing technique that gives favorable outcomes to unpriviliged groups and unfavorable outcomes to priviliged groups in a confidence band around the decision boundary with the highest uncertainty [61].
+
+* **Fairness Metrics used by AIF360:**
+1.	DataSetMetric
+2.	BinaryLabelDatasetMetric
+3.	ClassificationMetric
+4.	SampleDistortionMetric
 
 
 
