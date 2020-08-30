@@ -205,9 +205,13 @@ To control the behavioral biases like this, data experts should think critically
 
 ## References
 [1]	A. Olteanu, C. Castillo, F. Diaz, and E. Kıcıman, “Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries,” Front. Big Data, vol. 2, no. 13, p. 13, Jul. 2019, doi: 10.3389/fdata.2019.00013.
+
 [2]	J. Buolamwini, “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification *,” Jan. 2018. Accessed: Jul. 22, 2020. [Online]. Available: http://proceedings.mlr.press/v81/buolamwini18a.html.
+
 [3]	Y. Li and N. Vasconcelos, “REPAIR: Removing Representation Bias by Dataset Resampling,” 2019. Accessed: Aug. 19, 2020. [Online]. Available: https://github.com/.
+
 [4]	S. Holland, A. Hosny, S. Newman, J. Joseph, and K. Chmielinski, “The Dataset Nutrition Label: A Framework To Drive Higher Data Quality Standards,” no. May, 2018, [Online]. Available: http://arxiv.org/abs/1805.03677.
+
 [5]	N. Mehrabi, F. Morstatter, N. Saxena, K. Lerman, and A. Galstyan, “A Survey on Bias and Fairness in Machine Learning.” Accessed: Jul. 26, 2020. [Online]. Available: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing.
 [6]	Z. G. Anahid Basiri, Muki Haklay, “The Impact of Biases in the Crowdsourced Trajectories on the Output of Data Mining Processes,” 2018, Accessed: Jul. 22, 2020. [Online]. Available: https://discovery.ucl.ac.uk/id/eprint/10052658/1/1.3.pdf.
 [7]	S. Bias and J. J. Heckman, “Selection Bias - an overview | ScienceDirect Topics,” 2005. https://www.sciencedirect.com/topics/medicine-and-dentistry/selection-bias (accessed Jul. 26, 2020).
