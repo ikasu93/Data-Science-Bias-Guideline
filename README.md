@@ -135,27 +135,48 @@ Online retailer Amazon, whose global workforce is 60 percent male and where men 
 6.	Algorithmic bias can occur when algorithms make decisions based on race, usually called Racial Bias. It may be due to the unintentional or open inclusion of racial characteristics by the developer in the databank or may be due to historical bias in data. Advanced healthcare systems rely on commercial prediction algorithms to identify and help patients with complex health needs, therefore, there are high risks attached with the biased predictions. A clear example of racial disparity is that Black patients are considerably sicker than White patients, as evidenced by signs of uncontrolled illnesses [50].
 * **Best Practices:** 
 **AIF360** is the first system to bring together in one open source toolkit: bias metrics, bias mitigation algorithms, bias metric explanations, and industrial usability. By integrating these aspects, AIF360 can enable stronger collaboration between AI fairness researchers and practitioners, helping to translate our collective research results to practicing data scientists, data engineers, and developers deploying solutions in a variety of industries [47].
-  * Pre-Processing:
-1.	Disparate impact remover is a preprocessing technique that edits feature values increase group fairness while preserving rank-ordering within groups [51].
-2.	Learning fair representations is a pre-processing technique that finds a latent representation which encodes the data well but obfuscates information about protected attributes [52].
-3.	Optimized preprocessing is a preprocessing technique that learns a probabilistic transformation that edits the features and labels in the data with group fairness, individual distortion, and data fidelity constraints and objectives [53].
-4.	Reweighing is a preprocessing technique that weights the examples in each (group, label) combination differently to ensure fairness before classification [54]. 
-  * In-Processing:
-1.	Adversarial debiasing is an in-processing technique that learns a classifier to maximize prediction accuracy and simultaneously reduce an adversary’s ability to determine the protected attribute from the predictions [55].
-2.	ART Classifier wraps an instance of an art.classifiers.Classifier to extend Transformer.
-3.	GerryFair Model is an algorithm for learning classifiers that are fair with respect to rich subgroups [56].
-4.	The meta algorithm here takes the fairness metric as part of the input and returns a classifier optimized w.r.t that fairness metric [57].
-5.	Prejudice remover is an in-processing technique that adds a discrimination-aware regularization term to the learning objective [58].
-  * Post-Processing:
-1.	Calibrated equalized odds postprocessing is a post-processing technique that optimizes over calibrated classifier score outputs to find probabilities with which to change output labels with an equalized odds objective [59] .
-2.	Equalized odds postprocessing is a post-processing technique that solves a linear program to find probabilities with which to change output labels to optimize equalized odds [60].
-3.	Reject option classification is a postprocessing technique that gives favorable outcomes to unpriviliged groups and unfavorable outcomes to priviliged groups in a confidence band around the decision boundary with the highest uncertainty [61].
+The fairness metrics and the algorithms the tool is using is shown at https://aif360.readthedocs.io/en/latest/modules/algorithms.html and https://aif360.readthedocs.io/en/latest/modules/metrics.html.
+**FAIRECSYS** — an algorithm that mitigates algorithmic bias by post-processing the recommendation matrix with minimum impact on the utility of recommendations provided to the end-users [62]. By giving people control of their digital footprints can be helpful to reduce data bias. Algorithm transparency is another way to address the issue of algorithmic bias. Policy makers should design and implement discrimination-free laws to counter the lag in proper decision making that is, due to racial bias [63].
 
-* **Fairness Metrics used by AIF360:**
-1.	DataSetMetric
-2.	BinaryLabelDatasetMetric
-3.	ClassificationMetric
-4.	SampleDistortionMetric
+### Hot Hand Fallacy
+In the data science lifecycle, this bias appears when data experts use a particular model repeatedly for all the problems based on its historical performance without testing other suitable models. In this phenomenon, a person who got best results recently is supposed to have greater chances of success in future [64]. 
+* **Example:**
+When we throw a coin 20 times, then there is a 50 percent chance of getting four heads in a row, a 25 percent chance of five in a row and a 10 percent chance of a run of six. However, if you give this sequence to most individuals they will consider that these were patterns in the data and not at all random. This explains the “hot hand” fallacy in which we think we are on a winning streak – in whatever that may be – from cards to basketball to football. In each of these areas where the data is random but happens to include a sequence, we massively over-interpret the importance of this pattern [65].
+* **Best Practices:**
+Data scientists should think systematically and treat each problem independently as per its requirements. If we again examine the coin toss example, just because you threw tails three times and won, it doesn’t mean the fourth toss will also result in a win. Therefore, one should segregate each problem and try to make logical conclusions for the choices [66].  
 
+### Bandwagon Effect
+The bandwagon effect is the type of cognitive bias that refers to the individual tendency
+to follow the behavior of the mass [67]. In model building, this effect appears when we are derived by the impulse to adopt a specific methodology just because it previously been adopted by others. Hence, the data scientists blindly select the model without any evaluation as human brains love shortcuts.
+* **Example:**
+Tonsillectomy is cited as a recent example of medical bandwagons. Although the practice is said to be beneficial in some specific cases, scientific support for the universal use it saw was lacking. Doctors were drawn to tonsillectomy not on the basis of its effectiveness, but because they saw it was widely used [68].
+* **Best Practices:**
+Despite Bandwagon effect can help to adopt healthy behavior, data analysts should think twice before jumping into it. One must re-think either he/she is rational or influenced by the environment/group while making influential judgements. One must evaluate the algorithms before rushing towards them without knowing about constraints [69].  
 
+### Group Attribution Bias
+It is to believe that a person's traits always follow the ideologies of a group to which he/she belong and the decisions of the group manifest the beliefs it’s every member [70]. This bias consist of two categories:
+#### In-group bias: 
+A preference for members of a group to which you also belong, or for characteristics that you also share.
+* **Example:**
+Two engineers training a résumé-screening model for software developers are predisposed to believe that applicants who attended the same computer-science academy as they both did are more qualified for the role [70].
+#### Out-group homogeneity bias: 
+A tendency to stereotype individual members of a group to which you do not belong, or to see their characteristics as more uniform.
+* **Example:**
+Two engineers training a résumé-screening model for software developers are predisposed to believe that all applicants who did not attend a computer-science academy do not have sufficient expertise for the role [70].
+* **Best Practices:**
+In order to avoid group attribution biases, data scientists should not behave judgmentally rather they should analyze the situation and efficiently respond to the situation. Emotional and Cultural intelligence is another skill that can be handy in mitigating fundamental attribution errors while scheming a model. Self-analysis is one of the versatile techniques to avoid severe favoritism [71]. 
+
+### Aggregation Bias
+Aggregation bias occurs while model creation, when one framework is used for the groups having distinct conditional distributions, P(Y/X). In many applications, the concerned population is heterogeneous, and a single model does not fit all the subgroups. Aggregation bias can lead to a model that is suitable for the dominant population, or a model that does not fit any group at all (if combined with representation bias) [15].
+* **Example:** 
+Diabetes patients have known differences in associated complications across ethnicities [72]. Studies have also suggested that HbA1c levels (widely used to diagnose and monitor diabetes) differ in complex ways across ethnicities and genders [73]. Because these factors have different meanings and importance within different subpopulations, a single model to predict complications is unlikely to be best-suited for any group in the population even if they are equally represented in the training data [15].
+* **Best Practices:**
+Coupled learning techniques, for instance, multitask learning and Fair representation learning approach such that, space projection of data can be useful while countering aggregation bias [74], [75].
+
+### Evaluation Bias
+Evaluation bias happens during model iteration and evaluation when the training or benchmark data do not represent the targeted population. Evaluation bias can also arise from the use of performance metrics that are not appropriate for the way in which the model will be used. This can be intensified by the use of inappropriate metrics that are arrayed to report performance boost [15].
+* **Example:**
+Just recall the example 1 that is discussed in data Bias in the context of facial detection setup in which Buolamwini and Gebru [2] point out the drastically worse performance of commercially-used facial analysis algorithms. Looking at some common facial analysis benchmark datasets, it becomes apparent why such algorithms were considered appropriate for use – just 7.4% and 4.4% of the images in benchmark datasets such as Adience and IJB-A are of dark-skinned female faces. Algorithms that underperform on this slice of the population therefore suffer quite little in their evaluation performance on these benchmarks. The algorithms’ underperformance was likely caused by representation bias in the training data, but the benchmarks failed to discover and penalize this. Since this study, other algorithms have been benchmarked on more balanced face datasets, changing the development process to encourage models that perform well across groups [76].
+* **Best Practices:**
+To mitigate evaluation bias an approach namely Subgroup Evaluation can be used to comprehend the group matrices clearly by comparing them. Multiple metrics and confidence intervals is another useful technique in choosing relevant metrics for modeling [2], [76]. Targeted data augmentation (e.g., SMOTE) is also used to populate parts of the data distribution that are underrepresented [77].
 
