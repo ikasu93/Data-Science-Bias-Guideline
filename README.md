@@ -1,5 +1,10 @@
 # Data-Science-Bias-Guideline
 
+Feel free to evaluate the research:
+* Google docs file: https://docs.google.com/document/d/1XB5sE8fEhTbT17800OyhlAe7jN6fT12wqT7j37ZyNBY/edit?usp=sharing
+* Google forms survey: https://forms.gle/tN75M9GMBgTj3rCH7
+Thank you very much.
+
 ## Description
 ### Tagging
 To tag keywords, please use the Jupyter notebook tagging tool, in which you unlock:
