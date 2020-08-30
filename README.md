@@ -136,20 +136,20 @@ Online retailer Amazon, whose global workforce is 60 percent male and where men 
 * **Best Practices:** 
 **AIF360** is the first system to bring together in one open source toolkit: bias metrics, bias mitigation algorithms, bias metric explanations, and industrial usability. By integrating these aspects, AIF360 can enable stronger collaboration between AI fairness researchers and practitioners, helping to translate our collective research results to practicing data scientists, data engineers, and developers deploying solutions in a variety of industries [47].
 
-** Pre-Processing:
+  * Pre-Processing:
 1.	Disparate impact remover is a preprocessing technique that edits feature values increase group fairness while preserving rank-ordering within groups [51].
 2.	Learning fair representations is a pre-processing technique that finds a latent representation which encodes the data well but obfuscates information about protected attributes [52].
 3.	Optimized preprocessing is a preprocessing technique that learns a probabilistic transformation that edits the features and labels in the data with group fairness, individual distortion, and data fidelity constraints and objectives [53].
 4.	Reweighing is a preprocessing technique that weights the examples in each (group, label) combination differently to ensure fairness before classification [54]. 
 
-** In-Processing:
+  * In-Processing:
 1.	Adversarial debiasing is an in-processing technique that learns a classifier to maximize prediction accuracy and simultaneously reduce an adversary’s ability to determine the protected attribute from the predictions [55].
 2.	ART Classifier wraps an instance of an art.classifiers.Classifier to extend Transformer.
 3.	GerryFair Model is an algorithm for learning classifiers that are fair with respect to rich subgroups [56].
 4.	The meta algorithm here takes the fairness metric as part of the input and returns a classifier optimized w.r.t that fairness metric [57].
 5.	Prejudice remover is an in-processing technique that adds a discrimination-aware regularization term to the learning objective [58].
 
-** Post-Processing:
+  * Post-Processing:
 1.	Calibrated equalized odds postprocessing is a post-processing technique that optimizes over calibrated classifier score outputs to find probabilities with which to change output labels with an equalized odds objective [59] .
 2.	Equalized odds postprocessing is a post-processing technique that solves a linear program to find probabilities with which to change output labels to optimize equalized odds [60].
 3.	Reject option classification is a postprocessing technique that gives favorable outcomes to unpriviliged groups and unfavorable outcomes to priviliged groups in a confidence band around the decision boundary with the highest uncertainty [61].
