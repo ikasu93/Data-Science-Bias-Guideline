@@ -1,29 +1,28 @@
 # A Tutorial Using the Juypter Notebook extension
 
 ## Instruction on using guideline
-Applied steps:
-1.  Open cmd
-2.  install **Jupyter notebook** (https://jupyter.org/install)
-3.  install **Jupyter notebook extensions** (https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html) 
-4.  copy the folder **"firstExtension"** and pace in **"nbextensions"** path e.g. at "C:\ProgramData\jupyter\nbextensions"
-5.  Install **ipywidgets**(https://ipywidgets.readthedocs.io/en/latest/user_install.html)
+Applied steps: (per cmd)
+1.  install **Jupyter notebook** (https://jupyter.org/install) (if not yet done)
+2.  install **Jupyter notebook extensions** (https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html) 
+3.  copy the folder **"firstExtension"** and pace in **"nbextensions"** path e.g. at "C:\ProgramData\jupyter\nbextensions"
+4.  Install **ipywidgets**(https://ipywidgets.readthedocs.io/en/latest/user_install.html)
 ```
 pip install ipywidgets
 ```
-6.  **Enable ipywidgets**
+5.  **Enable ipywidgets**
 ```
 jupyter nbextension enable --py widgetsnbextension
 ```
-7.  **Enable notebook extensions**
+6.  **Enable notebook extensions**
 ```
 jupyter nbextensions_configurator enable --user
 ```
-8.  **Start jupyter notebook**
+7.  **Start jupyter notebook**
 ```
 jupyter notebook
 ```
-9.  **Create a new Python file** or open an existing jupyter notebook file
-10. Click on **Start Button**('Start Guideline') to start guideline
+8.  **Create a new Python file** or open an existing jupyter notebook file
+9. Click on **Start Button**('Start Guideline') to start guideline
 
 ## Extension
 You will see a Guideline with Biases for each 5 Data Science Phase.
