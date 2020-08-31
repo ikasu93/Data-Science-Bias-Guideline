@@ -6,13 +6,22 @@ Applied steps:
 2.  install **Jupyter notebook** (https://jupyter.org/install)
 3.  install **Jupyter notebook extensions** (https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html) 
 4.  copy the folder **"firstExtension"** and pace in **"nbextensions"** path e.g. at "C:\ProgramData\jupyter\nbextensions"
-5.  Install **ipywidgets** with 'pip install ipywidgets' in cmd (https://ipywidgets.readthedocs.io/en/latest/user_install.html)
+5.  Install **ipywidgets**(https://ipywidgets.readthedocs.io/en/latest/user_install.html)
 ```
 pip install ipywidgets
 ```
-6.  **Enable ipywidgets** with 'jupyter nbextension enable --py widgetsnbextension' in cmd
-7.  **Enable notebook extensions** with 'jupyter nbextensions_configurator enable --user' in cmd
-8.  **Start jupyter notebook** with 'jupyter notebook' in cmd
+6.  **Enable ipywidgets**
+```
+jupyter nbextension enable --py widgetsnbextension
+```
+7.  **Enable notebook extensions**
+```
+jupyter nbextensions_configurator enable --user
+```
+8.  **Start jupyter notebook**
+```
+jupyter notebook
+```
 9.  **Create a new Python file** or open an existing jupyter notebook file
 10. Click on **Start Button**('Start Guideline') to start guideline
 
