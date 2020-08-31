@@ -12,8 +12,8 @@ To tag keywords, please use the Jupyter notebook tagging tool, in which you unlo
 2. "Cell Toolbar"
 3. click on "Tags"
 
-Now you can create tags for each of your ln[...]. Please tag areas in your code where you have found biases, for example if you have algorithmic bias in your code, tag those ln[...] with "algorithmicbias".
-If you have this bias mitigated, you also tag the section with the method zusammengeschrieben e.g. "AIF360".
+Now you can create tags for each of your ln[...]. Please tag areas in your code where you have found biases, for example if you have algorithmic bias in your code, tag those ln[...] with "algorithmicbias" - so all written together and small caps.
+If you have this bias mitigated, you also tag the section with the method zusammengeschrieben e.g. "aif360".
 
 In order to create an overview of biases that exists in the code and mitigation methods you can click on the second button in order to create the Overview of keywords in your implementation.
 
