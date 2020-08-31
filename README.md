@@ -1,4 +1,4 @@
-# Data-Science-Bias-Guideline
+# Data Science Bias Guideline
 
 Feel free to evaluate the research:
 * Google docs file: https://docs.google.com/document/d/1XB5sE8fEhTbT17800OyhlAe7jN6fT12wqT7j37ZyNBY/edit?usp=sharing
