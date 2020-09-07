@@ -35,3 +35,4 @@ The guideline is for **self-evaluation purposes**. It should give you an overvie
 If it occurs in your code bias, you can **tag the section** of the code (please see https://github.com/ikasu93/Data-Science-Bias-Guideline#tagging). You can also tag the section with the mitigation method. For this reason it makes sense to structure your code with ln[] to recognize sections that have been tagged with one or more tags.
 ### Create overview
 After completing the implementation and the bias analysis, you have the possibility to create an overview of the tags or the biases and mitigation methods with the second button('Add summary'), in order to have an overview and a transparency of the results to the biases in the analysis.
+
