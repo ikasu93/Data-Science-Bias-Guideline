@@ -1,0 +1,6 @@
+Type: IPython Notebook Extension
+Name: Data Science Guideline
+Description: Guideline for Data scientists
+Link: readme.md
+Icon: extension.jpg
+Main: main.js
