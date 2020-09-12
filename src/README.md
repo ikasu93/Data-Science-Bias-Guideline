@@ -17,12 +17,18 @@ jupyter nbextension enable --py widgetsnbextension
 ```
 jupyter nbextensions_configurator enable --user
 ```
-7.  **Start jupyter notebook**
+
+7. **Enable Guideline extension**
+```
+call jupyter nbextension enable firstExtension/main
+```
+
+8.  **Start jupyter notebook**
 ```
 jupyter notebook
 ```
-8.  **Create a new Python file** or open an existing jupyter notebook file
-9. Click on **Start Button**('Start Guideline') to start guideline
+9.  **Create a new Python file** or open an existing jupyter notebook file
+10. Click on **Start Button**('Start Guideline') to start guideline
 
 ## Extension
 You will see a Guideline with Biases for each 5 Data Science Phase.
