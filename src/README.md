@@ -1,8 +1,8 @@
 # A Tutorial Using the Juypter Notebook extension
 Please read the "requirement.txt".
 
-## Instruction on using guideline via cmd
-Applied steps: 
+## Instruction on using guideline via script (coming soon)
+Applied steps:
 1.  download the "DS Guideline" folder
 2.  run the "installation.bat" script to install the extension the first time
 3.  after that, you can run the "startGuideline.bat" to start the guideline
