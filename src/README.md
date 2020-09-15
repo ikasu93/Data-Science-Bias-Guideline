@@ -4,7 +4,7 @@ The newest Python version is supported.
 
 ## Instruction on using guideline via script (coming soon)
 Applied steps:
-1.  download the "DS Guideline" folder
+1.  download the **"src"** folder
 2.  run the "installation.bat" script to install the extension the first time
 3.  after that, you can run the "startGuideline.bat" to start the guideline
 
