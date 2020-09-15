@@ -4,7 +4,7 @@ The newest Python version (Python3) is supported.
 
 [The Jupyter notebook extension guideline](https://i.imgur.com/NJbJoXF.jpg)
 
-## Instruction on using guideline via script (coming soon)
+## Instruction on using guideline via script
 Applied steps:
 1.  download the **"src"** folder
 2.  run the "installation.bat" script to install the extension the first time
