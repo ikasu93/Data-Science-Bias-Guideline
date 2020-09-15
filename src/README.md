@@ -9,6 +9,9 @@ Applied steps:
 1.  download the **"src"** folder
 2.  run the "installation.bat" script to install the extension the first time
 3.  after that, you can run the "startGuideline.bat" to start the guideline
+4.  **Create a new Python file** or open an existing jupyter notebook file. [Those buttons should appear.](https://i.imgur.com/Hln4dtf.jpg)
+5. Click on **Start Button**('Start Guideline') to start guideline
+
 
 ## (Alternatively) Instruction on using guideline via cmd
 Applied steps: (per cmd)
@@ -41,7 +44,7 @@ jupyter notebook
 10. Click on **Start Button**('Start Guideline') to start guideline
 
 **Note:** make sure that the extension is enabled by observing the "Nbextensions" tab in the jupyter notebook.
-
+[As example:](https://i.imgur.com/8oc8E1s.jpg)
 ## Extension
 You will see a Guideline with Biases for each 5 Data Science Phase.
 Additionally, there are links for description, examples and best practices to each bias. 
