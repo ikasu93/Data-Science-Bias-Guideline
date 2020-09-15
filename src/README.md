@@ -4,6 +4,8 @@ The newest Python version (Python3) is supported.
 
 [The Jupyter notebook extension guideline](https://i.imgur.com/NJbJoXF.jpg)
 
+**Note**: please use https://forms.gle/9oWTBhh87yBAd3XS8 to evaluate this extension. If there are any problems, feel free to add issues in this repository.
+
 ## Instruction on using guideline via script
 Applied steps:
 1.  download the **"src"** folder
