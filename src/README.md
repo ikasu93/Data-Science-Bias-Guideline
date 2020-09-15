@@ -2,7 +2,7 @@
 Please be sure to have Python installed.
 The newest Python version (Python3) is supported.
 
-[Imgur](https://i.imgur.com/NJbJoXF.jpg)
+[The Jupyter notebook extension guideline](https://i.imgur.com/NJbJoXF.jpg)
 
 ## Instruction on using guideline via script (coming soon)
 Applied steps:
