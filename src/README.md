@@ -1,6 +1,13 @@
 # A Tutorial Using the Juypter Notebook extension
+Please read the "requirement.txt".
 
-## Instruction on using guideline
+## Instruction on using guideline via cmd
+Applied steps: 
+1.  download the "DS Guideline" folder
+2.  run the "installation.bat" script to install the extension the first time
+3.  after that, you can run the "startGuideline.bat" to start the guideline
+
+## (Alternatively) Instruction on using guideline via cmd
 Applied steps: (per cmd)
 1.  install **Jupyter notebook** (https://jupyter.org/install) (if not yet done)
 2.  install **Jupyter notebook extensions** (https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html) 
@@ -29,6 +36,8 @@ jupyter notebook
 ```
 9.  **Create a new Python file** or open an existing jupyter notebook file
 10. Click on **Start Button**('Start Guideline') to start guideline
+
+**Note:** make sure that the extension is enabled by observing the "Nbextensions" tab in the jupyter notebook.
 
 ## Extension
 You will see a Guideline with Biases for each 5 Data Science Phase.
