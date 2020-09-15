@@ -1,5 +1,6 @@
 # A Tutorial Using the Juypter Notebook extension
-Please read the "requirement.txt".
+Please be sure to have Python installed.
+The newest Python version is supported.
 
 ## Instruction on using guideline via script (coming soon)
 Applied steps:
