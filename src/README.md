@@ -1,7 +1,9 @@
 # A Tutorial Using the Juypter Notebook extension
 Please be sure to have Python installed.
 The newest Python version (Python3) is supported.
-![The Jupyter notebook extension guideline](https://imgur.com/NJbJoXF)
+
+[Imgur](https://i.imgur.com/NJbJoXF.jpg)
+
 ## Instruction on using guideline via script (coming soon)
 Applied steps:
 1.  download the **"src"** folder
