@@ -2,7 +2,7 @@
 Please be sure to have Python installed.
 The newest Python version (Python3) is supported.
 
-![The Jupyter notebook extension guideline](docs/media/images/extension.png)
+![The Jupyter notebook extension guideline](docs/media/images/guideline.png)
 
 **Note**: please use https://forms.gle/9oWTBhh87yBAd3XS8 to evaluate this extension. If there are any problems, feel free to add issues in this repository.
 
@@ -11,7 +11,7 @@ Applied steps:
 1.  download the **"src"** folder
 2.  run the "installation.bat" script to install the extension the first time
 3.  after that, you can run the "startGuideline.bat" to start the guideline
-4.  **Create a new Python file** or open an existing jupyter notebook file. [Those buttons should appear.](https://i.imgur.com/Hln4dtf.jpg)
+4.  **Create a new Python file** or open an existing jupyter notebook file. ![Those buttons should appear.](docs/media/images/buttons.png)
 5. Click on **Start Button**('Start Guideline') to start guideline
 
 
@@ -46,7 +46,7 @@ jupyter notebook
 10. Click on **Start Button**('Start Guideline') to start guideline
 
 **Note:** make sure that the extension is enabled by observing the "Nbextensions" tab in the jupyter notebook.
-[As example:](https://i.imgur.com/8oc8E1s.jpg)
+![As example](docs/media/images/extension.png)
 ## Extension
 You will see a Guideline with Biases for each 5 Data Science Phase.
 Additionally, there are links for description, examples and best practices to each bias. 
