@@ -9,10 +9,10 @@ call jupyter nbextensions_configurator enable --user
 
 
 REM pace the guideline to correct path
-md "%appdata%/jupyter/nbextensions\firstExtension"
-copy "firstExtension" "%appdata%/jupyter/nbextensions\firstExtension"
+md "%appdata%/jupyter/nbextensions\taggable_bias_guideline"
+copy "firstExtension" "%appdata%/jupyter/nbextensions\taggable_bias_guideline"
 
 REM start the Guideline
-call jupyter nbextension enable firstExtension/main
+call jupyter nbextension enable taggable_bias_guideline/main
 
 call startGuideline.bat
