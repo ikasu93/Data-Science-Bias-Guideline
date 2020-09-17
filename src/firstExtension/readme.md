@@ -1,6 +1,6 @@
-## Data Science Guideline
+## Taggable Bias Guideline
 
-### Introduction
+### Introduction - a Bias Guideline for Data Scientists
 In this project, we will present the outcome of the literature review. What are the sources of bias we are mapping to? In each of the data science phases bias can occur for different reasons. An overview of all biases is shown in Figure 3. We find examples and best practices so that we know how to mitigate them. 
 The main goal is to give data scientists an overview of the biases that can occur when programming and analyzing data. And how these problems can be solved.
 This study is conducted as a master thesis at the RWTH Aachen university.  The task is to find all the biases that occur in each data-science phase and to assign them to the phases. 
