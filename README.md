@@ -222,6 +222,13 @@ Binge eating disorder could be excluded from ICD-11 due to arguments that it mig
 * **Best Practices:**
 To control the behavioral biases like this, data experts should think critically and try to be logical. Self-criticism or self-evaluation is one of the best ways to not be biased [45]. 
 
+### Overfitting and Underfitting
+Overfitting and Under-fitting are two problems with machine learning models.  Overfitting is when the model grabs the trend of training data patterns so well that it does not improve its ability to solve problem anymore. Under-fitting is reverse of overfitting. It is the statistical model that cannot capture the underlying trend of data or model over idealizes its experience [81].
+* **Example:**
+Let’s say we want to predict if a student will land a job interview based on her resume. Now, assume we train a model from a dataset of 10,000 resumes and their outcomes. Next, we try the model out on the original dataset, and it predicts outcomes with 99% accuracy… wow! But now comes the bad news. When we run the model on a new (“unseen”) dataset of resumes, we only get 50% accuracy [82].
+* **Best Practices:**
+Process Mining Algorithms can reduce the gap between overfitting and under-fitting [83]. In [84], authors presented two important techniques namely Penalty Methods, and Early Stopping, to limit these effect (overfitting & under-fitting). Furthermore, a novel L1/4 regularization method to overcome this issue, is stated in [81].
+
 ## References
 [1]	A. Olteanu, C. Castillo, F. Diaz, and E. Kıcıman, “Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries,” Front. Big Data, vol. 2, no. 13, p. 13, Jul. 2019, doi: 10.3389/fdata.2019.00013.
 
