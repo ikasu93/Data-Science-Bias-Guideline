@@ -81,6 +81,7 @@ grid[21, 1] = create_checkbox('Evaluation Bias', False)
 
 grid[22, 1] = create_checkbox('Deployment Bias', False)
 grid[23, 1] = create_checkbox('Rescue Bias', False)
+grid[24, 1] = create_checkbox('Overfitting and Underfitting Bias', False)
 
 grid[1, 2:8] = create_link_button('Click for Data Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#data-bias-representation-bias', '')
 grid[2, 2:8] = create_link_button('Click for Sampling Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#selection-bias', '')
@@ -105,6 +106,7 @@ grid[20, 2:8] = create_link_button('Click for Aggregation Bias Example and Best 
 grid[21, 2:8] = create_link_button('Click for Evaluation Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#evaluation-bias', '')
 grid[22, 2:8] = create_link_button('Click for Deployment Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#deployment-bias', '')
 grid[23, 2:8] = create_link_button('Click for Rescue Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#rescue-bias', '')
+grid[24, 2:8] = create_link_button('Click for Overfitting/Underfitting Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#overfitting-and-underfitting', '')
 grid`);
         //Jupyter.notebook.to_markdown(0);
 	Jupyter.notebook.select_prev();
