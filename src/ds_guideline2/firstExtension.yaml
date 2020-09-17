@@ -1,6 +1,0 @@
-Type: IPython Notebook Extension
-Name: firstExtension
-Description: This is test
-Link: readme.md
-Icon: icon.png
-Main: main.js
