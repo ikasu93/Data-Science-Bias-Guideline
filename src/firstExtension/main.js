@@ -47,7 +47,7 @@ grid[1:9, 0] = create_expanded_button('Data Ingestion', '')
 grid[9:11, 0] = create_expanded_button('Data Cleaning', '')
 grid[11:16, 0] = create_expanded_button('Data Visualization', '')
 grid[16:22, 0] = create_expanded_button('Data Modeling', '')
-grid[22:24, 0] = create_expanded_button('Data Analysis', '')
+grid[22:25, 0] = create_expanded_button('Data Analysis', '')
 grid[25:26, 1] = create_link_button('Information to Tagging', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#description', 'info')
 
 
