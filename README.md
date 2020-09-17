@@ -15,7 +15,10 @@ Thank you very much.
 
 ## Description
 ### Tagging
-To tag keywords, please use the Jupyter notebook tagging tool, in which you unlock:
+To tag keywords, please use the Jupyter notebook tagging tool, in which you unlock - First option:
+* Click on the "Activate/Deactivate" Button.
+
+Alternatively:
 1. "View" tab
 2. "Cell Toolbar"
 3. click on "Tags"
