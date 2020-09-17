@@ -11,7 +11,7 @@ Applied steps:
 1.  download the **"src"** folder
 2.  run the "installation.bat" script to install the extension the first time
 3.  after that, you can run the "startGuideline.bat" to start the guideline
-4.  **Create a new Python file** or open an existing jupyter notebook file. ![Those buttons should appear.](docs/media/images/buttons.png)
+4.  **Create a new Python file** or open an existing jupyter notebook file. Those buttons should appear.![Those buttons should appear.](docs/media/images/buttons.png)
 5. Click on **Start Button**('Start Guideline') to start guideline
 
 
