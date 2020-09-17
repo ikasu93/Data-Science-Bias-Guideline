@@ -19,7 +19,7 @@ Applied steps:
 Applied steps: (per cmd)
 1.  install **Jupyter notebook** (https://jupyter.org/install) (if not yet done)
 2.  install **Jupyter notebook extensions** (https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html) 
-3.  copy the folder **"firstExtension"** and pace in **"nbextensions"** path e.g. at "C:\ProgramData\jupyter\nbextensions"
+3.  copy the folder **"taggable_bias_guideline"** and pace in **"nbextensions"** path e.g. at "C:\ProgramData\jupyter\nbextensions"
 4.  Install **ipywidgets**(https://ipywidgets.readthedocs.io/en/latest/user_install.html)
 ```
 pip install ipywidgets
