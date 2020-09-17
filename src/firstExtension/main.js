@@ -5,10 +5,12 @@ define([
 
         // Adds a cell above current cell (will be top if no cells)
         var add_cell = function() {
-        Jupyter.notebook.
-        insert_cell_above('code').
+		if(boolGuideline === false){
+			Jupyter.notebook.select(0);
+			Jupyter.notebook.
+			insert_cell_above('code').
         // Define default cell here
-        set_text(`from ipywidgets import Button, Layout, jslink, IntText, IntSlider, Checkbox, FloatText, Text
+			set_text(`from ipywidgets import Button, Layout, jslink, IntText, IntSlider, Checkbox, FloatText, Text
 
 
 def create_expanded_button(description, button_style):
@@ -38,7 +40,7 @@ bottom_right_slider = IntSlider(description='Bottom right', layout=Layout(width=
 
 from ipywidgets import GridspecLayout
 
-grid = GridspecLayout(26, 6)
+grid = GridspecLayout(27, 6)
 
 grid[:1, 0] = create_expanded_button('Phase', 'info')
 grid[1:9, 0] = create_expanded_button('Data Ingestion', '')
@@ -46,7 +48,7 @@ grid[9:11, 0] = create_expanded_button('Data Cleaning', '')
 grid[11:16, 0] = create_expanded_button('Data Visualization', '')
 grid[16:22, 0] = create_expanded_button('Data Modeling', '')
 grid[22:24, 0] = create_expanded_button('Data Analysis', '')
-grid[24:25, 1] = create_link_button('Information to Tagging', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#description', 'info')
+grid[25:26, 1] = create_link_button('Information to Tagging', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#description', 'info')
 
 
 grid[:1, 1] = create_expanded_button('Bias', 'info')
@@ -105,8 +107,14 @@ grid[22, 2:8] = create_link_button('Click for Deployment Bias Example and Best p
 grid[23, 2:8] = create_link_button('Click for Rescue Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#rescue-bias', '')
 grid`);
         //Jupyter.notebook.to_markdown(0);
-Jupyter.notebook.select_prev();
-Jupyter.notebook.execute_cell_and_select_below();
+	Jupyter.notebook.select_prev();
+	Jupyter.notebook.execute_cell_and_select_below();
+	boolGuideline = true
+		}
+		else{
+			Jupyter.notebook.scroll_to_top();
+		}
+		
       };
       // Button to add default cell
       var defaultCellButton = function () {
@@ -118,24 +126,28 @@ Jupyter.notebook.execute_cell_and_select_below();
               }, 'Start DS Guideline', 'Default guideline')
           ])
       }
+	  var activateTagsButton = function () {
+          Jupyter.toolbar.add_buttons_group([	
+              Jupyter.keyboard_manager.actions.register ({
+                  'help': 'Activate/Deactivate Tags',
+                  'icon' : 'fa-tags',
+                  'handler': activateTags
+              }, 'Activate Tags', 'Default summary')
+          ])
+      }
 	  var tagCellButton = function () {
           Jupyter.toolbar.add_buttons_group([	
               Jupyter.keyboard_manager.actions.register ({
                   'help': 'Add summary',
                   'icon' : 'fa-list',
                   'handler': tags
-              }, 'add-summary', 'Default summary')
+              }, 'Create Tag Summary', 'Default tags')
           ])
       }
     // Run on start
     function load_ipython_extension() {
-        // Add a default cell if there are no cells
-        /*
-		if (Jupyter.notebook.get_cells().length===1){
-            add_cell();
-        }
-		*/
         defaultCellButton();
+		activateTagsButton();
 		tagCellButton();
 		
     }
@@ -144,17 +156,15 @@ Jupyter.notebook.execute_cell_and_select_below();
     };
 });
 
-function onCellAdded(){ 
+function onCellAdded(){
+	var currentCell = Jupyter.notebook.find_cell_index(Jupyter.notebook.get_selected_cell())+1;
 	$("div.input").eq(0).hide();
 	Jupyter.notebook.events.off("create.Cell", onCellAdded)
-	console.log("onCellAdded")
 } 
 
 Jupyter.notebook.events.on("create.Cell",onCellAdded);
-console.log("On")
 
-const flag = false;
-
+var boolGuideline = false;
 var add_cell = function() {
 	Jupyter.notebook.
 	insert_cell_at_index(0).
@@ -162,17 +172,20 @@ var add_cell = function() {
 	set_text(`Define default cell here`);
 	Jupyter.notebook.select_prev();
 	Jupyter.notebook.execute_cell_and_select_below();
-	flag = true;
+	boolGuideline = true
 };
 
-/*
-const databias = ["Data Bias", "Data Ingestion Phase"];
-const selectionbias = ["Selection Bias", "Data Ingestion Phase"];
-const samplingbias = ["Sampling Bias", "Data Ingestion Phase"];
-const measurementbias;
-const surveybias;
-const seasonalbias;
-*/
+var boolTag = false;
+function activateTags(){
+	if (boolTag === false){
+		document.querySelector("#menu-cell-toolbar-submenu > li:nth-child(6) > a").click();
+		boolTag = true;
+	}
+	else{
+		document.querySelector("#menu-cell-toolbar-submenu > li:nth-child(1) > a").click();
+		boolTag = false;
+	}
+}
 
 function tags(){
 	const tagList = [];
@@ -188,6 +201,15 @@ function tags(){
 		console.log("-"+t);
 	};
 	console.log("--------------------------------------------------------------------------------------------------");
+	if(tagList && tagList.length){
+		window.alert("These are the biases I have found in my code and mitigation methods I have used to mitigate them: ")
+		for (const t of tagList) {
+			window.alert("-"+t);
+		};
+	}
+	else {
+		window.alert("No Taggings found!")
+	}
 	var tString = tagList.toString();
 	
 }
