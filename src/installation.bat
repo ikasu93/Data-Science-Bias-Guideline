@@ -9,10 +9,8 @@ call jupyter nbextensions_configurator enable --user
 
 
 REM pace the guideline to correct path
-if not exist "%appdata%/jupyter/nbextensions\firstExtension" (
-	md "%appdata%/jupyter/nbextensions\firstExtension"
-	copy "firstExtension" "%appdata%/jupyter/nbextensions\firstExtension"
-)
+md "%appdata%/jupyter/nbextensions\firstExtension"
+copy "firstExtension" "%appdata%/jupyter/nbextensions\firstExtension"
 
 REM start the Guideline
 call jupyter nbextension enable firstExtension/main
