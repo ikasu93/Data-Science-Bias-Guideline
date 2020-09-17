@@ -6,7 +6,7 @@ The newest Python version (Python3) is supported.
 
 **Note**: please use https://forms.gle/9oWTBhh87yBAd3XS8 to evaluate this extension. If there are any problems, feel free to add issues in this repository.
 
-## Instruction on using guideline via script
+## Instruction on using guideline via script on Windows
 Applied steps:
 1.  download the **"src"** folder
 2.  run the "installation.bat" script to install the extension the first time
