@@ -198,19 +198,20 @@ function tags(){
     if (tags) tags.forEach(tag => tagList.push(tag));
 });
 	console.log("--------------------------------------------------------------------------------------------------");
-	console.log("These are the biases I have found in my code and mitigation methods I have used to mitigate them: ");
+	console.log("List of biases in this code and used mitigation methods:");
 	for (const t of tagList) {
 		console.log("-"+t);
 	};
 	console.log("--------------------------------------------------------------------------------------------------");
+	var messages = "List of biases in this code and used mitigation methods: \n \n";
 	if(tagList && tagList.length){
-		window.alert("These are the biases I have found in my code and mitigation methods I have used to mitigate them: ")
 		for (const t of tagList) {
-			window.alert("-"+t);
+			messages+= "- "+t+"\n";
 		};
+		window.alert(messages)
 	}
 	else {
-		window.alert("No Taggings found!")
+		window.alert("No taggings found!")
 	}
 	var tString = tagList.toString();
 	
