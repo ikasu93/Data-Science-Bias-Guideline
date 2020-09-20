@@ -10,7 +10,7 @@ define([
 			Jupyter.notebook.
 			insert_cell_above('code').
         // Define default cell here
-			set_text(`from ipywidgets import Button, Layout, jslink, IntText, IntSlider, Checkbox, FloatText, Text
+			set_text(`from ipywidgets import Button, Layout, jslink, IntText, IntSlider, Checkbox, FloatText, Text, HTML
 
 
 def create_expanded_button(description, button_style):
@@ -42,71 +42,70 @@ from ipywidgets import GridspecLayout
 
 grid = GridspecLayout(27, 6)
 
-grid[:1, 0] = create_expanded_button('Phase', 'info')
-grid[1:9, 0] = create_expanded_button('Data Ingestion', '')
-grid[9:11, 0] = create_expanded_button('Data Cleaning', '')
-grid[11:16, 0] = create_expanded_button('Data Visualization', '')
-grid[16:22, 0] = create_expanded_button('Data Modeling', '')
-grid[22:25, 0] = create_expanded_button('Data Analysis', '')
+grid[:1, 0] = create_link_button('Data Science Phases', 'https://github.com/ikasu93/Data-Science-Bias-Guideline', 'info')
+grid[1:9, 0] = create_link_button('Data Ingestion', 'https://github.com/ikasu93/Data-Science-Bias-Guideline#data-ingestion-phase', '')
+grid[9:11, 0] = create_link_button('Data Scrubbing', 'https://github.com/ikasu93/Data-Science-Bias-Guideline#data-scrubbing-phase', '')
+grid[11:16, 0] = create_link_button('Data Visualization', 'https://github.com/ikasu93/Data-Science-Bias-Guideline#data-visualization-phase', '')
+grid[16:22, 0] = create_link_button('Data Modeling', 'https://github.com/ikasu93/Data-Science-Bias-Guideline#data-modeling-phase', '')
+grid[22:25, 0] = create_link_button('Data Analysis', 'https://github.com/ikasu93/Data-Science-Bias-Guideline#data-analysis-phase', '')
 grid[25:26, 1] = create_link_button('Information to Tagging', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#description', 'info')
 
+grid[:1, 1:3] = create_expanded_button('List of biases', 'info')
+grid[:1, 3:8] = create_expanded_button('Best practices & examples', 'info')
 
-grid[:1, 1] = create_expanded_button('Bias', 'info')
-grid[:1, 2:8] = create_expanded_button('Best practices and Examples', 'info')
+grid[1, 1:3] = HTML(value = 'Data Bias')
+grid[2, 1:3] = HTML(value = 'Sampling Bias')
+grid[3, 1:3] = HTML(value = 'Measurement Bias')
+grid[4, 1:3] = HTML(value = 'Survey Bias')
+grid[5, 1:3] = HTML(value = 'Seasonal Bias')
+grid[6, 1:3] = HTML(value = 'Survivorship Bias')
+grid[7, 1:3] = HTML(value = 'Selection Bias')
+grid[8, 1:3] = HTML(value = 'Historical Bias')
 
-grid[1, 1] = create_checkbox('Data Bias', False)
-grid[2, 1] = create_checkbox('Sampling Bias', False)
-grid[3, 1] = create_checkbox('Measurement Bias', False)
-grid[4, 1] = create_checkbox('Survey Bias', False)
-grid[5, 1] = create_checkbox('Seasonal Bias', False)
-grid[6, 1] = create_checkbox('Survivorship Bias', False)
-grid[7, 1] = create_checkbox('Selection Bias', False)
-grid[8, 1] = create_checkbox('Historical Bias', False)
+grid[9, 1:3] = HTML(value = 'Exclusion Bias')
+grid[10,1:3] = HTML(value = 'Data Enrichment Bias')
 
-grid[9, 1] = create_checkbox('Exclusion Bias', False)
-grid[10,1] = create_checkbox('Data Enrichment Bias', False)
+grid[11, 1:3] = HTML(value = 'Framing effect')
+grid[12, 1:3] = HTML(value = 'Availability Bias')
+grid[13, 1:3] = HTML(value = 'Overconfidence Bias')
+grid[14, 1:3] = HTML(value = 'Anchoring Bias')
+grid[15, 1:3] = HTML(value = 'Confirmation Bias & Signal Error')
 
-grid[11, 1] = create_checkbox('Framing effect', False)
-grid[12, 1] = create_checkbox('Availability Bias', False)
-grid[13, 1] = create_checkbox('Overconfidence Bias', False)
-grid[14, 1] = create_checkbox('Anchoring Bias', False)
-grid[15, 1] = create_checkbox('Confirmation Bias and Signal Error', False)
+grid[16, 1:3] = HTML(value = 'Algorithmic Bias')
+grid[17, 1:3] = HTML(value = 'How Hand Fallacy')
+grid[18, 1:3] = HTML(value = 'Bandwagon Effect')
+grid[19, 1:3] = HTML(value = 'Group Attribution Bias')
+grid[20, 1:3] = HTML(value = 'Aggregation Bias')
+grid[21, 1:3] = HTML(value = 'Evaluation Bias')
 
-grid[16, 1] = create_checkbox('Algorithmic Bias', False)
-grid[17, 1] = create_checkbox('How Hand Fallacy', False)
-grid[18, 1] = create_checkbox('Bandwagon Effect', False)
-grid[19, 1] = create_checkbox('Group Attribution Bias', False)
-grid[20, 1] = create_checkbox('Aggregation Bias', False)
-grid[21, 1] = create_checkbox('Evaluation Bias', False)
+grid[22, 1:3] = HTML(value = 'Deployment Bias')
+grid[23, 1:3] = HTML(value = 'Rescue Bias')
+grid[24, 1:3] = HTML(value = 'Overfitting & Underfitting')
 
-grid[22, 1] = create_checkbox('Deployment Bias', False)
-grid[23, 1] = create_checkbox('Rescue Bias', False)
-grid[24, 1] = create_checkbox('Overfitting and Underfitting Bias', False)
-
-grid[1, 2:8] = create_link_button('Click for Data Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#data-bias-representation-bias', '')
-grid[2, 2:8] = create_link_button('Click for Sampling Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#selection-bias', '')
-grid[3, 2:8] = create_link_button('Click for Measurement Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#sampling-bias', '')
-grid[4,2:8] = create_link_button('Click for Survey Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#measurement-bias-systematic-errors', '')
-grid[5, 2:8] = create_link_button('Click for Seasonal Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#survey-bias-self-reporting-bias', '')
-grid[6, 2:8] = create_link_button('Click for Survivorship Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#seasonal-bias', '')
-grid[7, 2:8] = create_link_button('Click for Selection Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#survivorship-bias', '')
-grid[8, 2:8] = create_link_button('Click for Historical Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#historical-bias', '')
-grid[9, 2:8] = create_link_button('Click for Exclusion Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#exclusion-bias', '')
-grid[10, 2:8] = create_link_button('Click for Data Enrichment Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#data-enrichment-bias', '')
-grid[11, 2:8] = create_link_button('Click for Framing Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#1data-visualization-and-framing-effect', '')
-grid[12, 2:8] = create_link_button('Click for Availability Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#2data-visualization-and-availability-bias', '')
-grid[13, 2:8] = create_link_button('Click for Overconfidence Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#3data-visualization-and-overconfidence-bias', '')
-grid[14, 2:8] = create_link_button('Click for Anchoring Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#4data-visualization-and-anchoring-bias', '')
-grid[15, 2:8] = create_link_button('Click for Confirmation Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#5data-visualization-confirmation-bias-and-signal-error', '')
-grid[16, 2:8] = create_link_button('Click for Algorithmic Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#algorithmic-bias', '')
-grid[17, 2:8] = create_link_button('Click for Hot Hand Fallacy Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#hot-hand-fallacy', '')
-grid[18, 2:8] = create_link_button('Click for Bandwagon Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#bandwagon-effect', '')
-grid[19, 2:8] = create_link_button('Click for Group Attribution Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#group-attribution-bias', '')
-grid[20, 2:8] = create_link_button('Click for Aggregation Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#aggregation-bias', '')
-grid[21, 2:8] = create_link_button('Click for Evaluation Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#evaluation-bias', '')
-grid[22, 2:8] = create_link_button('Click for Deployment Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#deployment-bias', '')
-grid[23, 2:8] = create_link_button('Click for Rescue Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#rescue-bias', '')
-grid[24, 2:8] = create_link_button('Click for Overfitting/Underfitting Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#overfitting-and-underfitting', '')
+grid[1, 3:8] = create_link_button('Click for Data Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#data-bias-representation-bias', '')
+grid[2, 3:8] = create_link_button('Click for Sampling Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#selection-bias', '')
+grid[3, 3:8] = create_link_button('Click for Measurement Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#sampling-bias', '')
+grid[4, 3:8] = create_link_button('Click for Survey Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#measurement-bias-systematic-errors', '')
+grid[5, 3:8] = create_link_button('Click for Seasonal Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#survey-bias-self-reporting-bias', '')
+grid[6, 3:8] = create_link_button('Click for Survivorship Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#seasonal-bias', '')
+grid[7, 3:8] = create_link_button('Click for Selection Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#survivorship-bias', '')
+grid[8, 3:8] = create_link_button('Click for Historical Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#historical-bias', '')
+grid[9, 3:8] = create_link_button('Click for Exclusion Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#exclusion-bias', '')
+grid[10, 3:8] = create_link_button('Click for Data Enrichment Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#data-enrichment-bias', '')
+grid[11, 3:8] = create_link_button('Click for Framing Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#1data-visualization-and-framing-effect', '')
+grid[12, 3:8] = create_link_button('Click for Availability Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#2data-visualization-and-availability-bias', '')
+grid[13, 3:8] = create_link_button('Click for Overconfidence Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#3data-visualization-and-overconfidence-bias', '')
+grid[14, 3:8] = create_link_button('Click for Anchoring Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#4data-visualization-and-anchoring-bias', '')
+grid[15, 3:8] = create_link_button('Click for Confirmation Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#5data-visualization-confirmation-bias-and-signal-error', '')
+grid[16, 3:8] = create_link_button('Click for Algorithmic Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#algorithmic-bias', '')
+grid[17, 3:8] = create_link_button('Click for Hot Hand Fallacy Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#hot-hand-fallacy', '')
+grid[18, 3:8] = create_link_button('Click for Bandwagon Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#bandwagon-effect', '')
+grid[19, 3:8] = create_link_button('Click for Group Attribution Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#group-attribution-bias', '')
+grid[20, 3:8] = create_link_button('Click for Aggregation Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#aggregation-bias', '')
+grid[21, 3:8] = create_link_button('Click for Evaluation Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#evaluation-bias', '')
+grid[22, 3:8] = create_link_button('Click for Deployment Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#deployment-bias', '')
+grid[23, 3:8] = create_link_button('Click for Rescue Bias Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#rescue-bias', '')
+grid[24, 3:8] = create_link_button('Click for Overfitting/Underfitting Example and Best practice', 'https://github.com/ikasu93/Data-Science-Bias-Guideline/blob/master/README.md#overfitting-and-underfitting', '')
 grid`);
         //Jupyter.notebook.to_markdown(0);
 	Jupyter.notebook.select_prev();
@@ -188,6 +187,7 @@ var add_cell = function() {
 
 var boolTag = false;
 function activateTags(){
+
 	if (boolTag === false){
 		
 		document.querySelector("#menu-cell-toolbar-submenu > li:nth-child(6) > a").click();
