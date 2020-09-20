@@ -48,9 +48,9 @@ jupyter notebook
 **Note:** make sure that the extension is enabled by observing the "Nbextensions" tab in the jupyter notebook.
 ![As example](docs/media/images/extension.png)
 ## Extension
-You will see a Guideline with Biases for each 5 Data Science Phase.
+You will see a guideline with biases for each Data Science phase.
 Additionally, there are links for description, examples and best practices to each bias. 
-The link will redirect you to a github page that provides this information. 
+The link will redirect you to a Github page that provides this information. 
 
 ## Procedure
 The guideline is for **self-evaluation purposes**. It should give you an overview which biases can occur and show with examples how they can look like. 
