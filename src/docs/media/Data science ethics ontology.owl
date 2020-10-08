@@ -1,0 +1,936 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:15227c1e-ea7f-4bdd-a036-91988b2b9ba5#"
+     xml:base="urn:webprotege:ontology:15227c1e-ea7f-4bdd-a036-91988b2b9ba5"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:15227c1e-ea7f-4bdd-a036-91988b2b9ba5"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fOJARNfleZMcHGD7lNJmg -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7fOJARNfleZMcHGD7lNJmg">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBlwCEn9bpCEE61IqQUk0OI"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RB9NoVo8qzGFrNMA7m62oOF"/>
+        <rdfs:label>stored in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7iTWSgajRdUZ8YSLlKPMkP -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7iTWSgajRdUZ8YSLlKPMkP">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBlwCEn9bpCEE61IqQUk0OI"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RLNsXGpg7Qh9b6lYbgnJJt"/>
+        <rdfs:label>can be used as</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7k3C6oCfc2Y17SfLpOlgBe -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7k3C6oCfc2Y17SfLpOlgBe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7tmt3bZQiJTqXiMEdTcVgB"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RZhlUnaJd7TiqBjdYgCJrr"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBkOCzBJgIV1ZiYnBt8yIvL"/>
+        <rdfs:label>occurs in data scrubbing phase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7vbpNUJVNPCDD4nr3U4qn9 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7vbpNUJVNPCDD4nr3U4qn9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCL4om6w6z0Q7LX2R0AKX7a"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7ziVRIaP1g1sPQkzAJ6zjJ"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RzoOd8WBg6hjSXp3lZ0RDP"/>
+        <rdfs:label>Sampling bias mitigated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Y9rQysCyespjExF7RZJSQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8Y9rQysCyespjExF7RZJSQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7tmt3bZQiJTqXiMEdTcVgB"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RRYWqgVYajuBn71Ni8rvVa"/>
+        <rdfs:label>Data enrichment bias mitigated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8q1Gjkmvnmi56CGXypwy1O -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8q1Gjkmvnmi56CGXypwy1O">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R5L0b0AVfGRKs0WecDyMwG"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R761QV8dMRAfSENxsaLauzc"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCL4om6w6z0Q7LX2R0AKX7a"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDAyoj6RFlHT64ktYstwS0E"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDSyQife4U4BFBQj2xQnRPb"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDZXp5dLL4nukWrkklBIgw6"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rn0HuKKdEG8qU8nEnmYByW"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RoK93ufw646pt4ptlGokcC"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">occurs in data ingestion phase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9pCpX2IctzeCkeu8vOZyB0 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9pCpX2IctzeCkeu8vOZyB0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R6xv2J2BASAl0U7hXTYJYL"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7QWAnTvZ25NMU1nGFATS4"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R93UWyVFIF2fph3QpihTEKe"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RC7SpANHdz14XC33YhFzn3n"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCgd972qbCuaqpjuPZY7j0I"/>
+        <rdfs:label>includes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9z0Y6AHLNZKf8QhQH0nEbk -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9z0Y6AHLNZKf8QhQH0nEbk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RZhlUnaJd7TiqBjdYgCJrr"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R8ftVnznjRQfm0583hQI7iS"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9WbFxACbEvwWjSvOyQuDtQ"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RdP40VtyWKicC7NXTFhisx"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Rsy768QJNiHblI1U6y2nR6"/>
+        <rdfs:label>Exclusion bias mitigated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB1YdHieaE1eHWzoVaqDgzF -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB1YdHieaE1eHWzoVaqDgzF">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R99LRumVCN3nr0Kmp2s4XGJ"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RINyZh1QzXpie3t2PHSuiu"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RJaovI2he5NB73O8XNb6vQ"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9h4Jx09S4qaqWUlmxxOHNt"/>
+        <rdfs:label>occurs in data analysis phase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6NyRaH1RlQC8rMesBaaSH -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RB6NyRaH1RlQC8rMesBaaSH">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8h1HbgnxtffKEM1PBdpviH"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8hjYp3JYn4UyA3M7rRuNUY"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBPdv003L8wP2e0Z7kvnWoc"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCpv4HJrU5NXHvj5eru3j8y"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCwglNZnM5EVWo3nPF7xg35"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDe7yIFqMMY1wXlORUJKRjC"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:label>occurs in data modeling phase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBdcFVMmCXInyPyvuEMjBLb -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBdcFVMmCXInyPyvuEMjBLb">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R706hMCH9EIfwt5A3KHebdx"/>
+        <rdfs:label>is part of ethics</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0LYOHyfaVUMj2QHh6yGyD -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC0LYOHyfaVUMj2QHh6yGyD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDe7yIFqMMY1wXlORUJKRjC"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RCG7uXaVJjLRJDCeQrvjH4v"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RDoxovIDCCuJxoiBmI6zGZm"/>
+        <rdfs:label>aggregation bias mitigated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCbG2Wb7b1vungSnMDv6HJI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCbG2Wb7b1vungSnMDv6HJI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7PJtYLZ6kgowyFLsB2X4eM"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7ziVRIaP1g1sPQkzAJ6zjJ"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8ftVnznjRQfm0583hQI7iS"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9K7A3Bj63K3gE5kQ2nMAe8"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9P7bFRDltNtdYDkJ23aPKt"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9WbFxACbEvwWjSvOyQuDtQ"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBumYvSYTZZ0Nigvchio5Mz"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCG7uXaVJjLRJDCeQrvjH4v"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDoxovIDCCuJxoiBmI6zGZm"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RHYb0S8NCN0k70dklz3ZTZ"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RIwYPBaQvxh6hxWwAbkiiz"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RO77ggPCkf8Yy5ZjLjGgjY"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RRYWqgVYajuBn71Ni8rvVa"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RUOHN1GqWo2pYzNh9gTFyL"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RdP40VtyWKicC7NXTFhisx"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/Rsy768QJNiHblI1U6y2nR6"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RzoOd8WBg6hjSXp3lZ0RDP"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>is mitigation method</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2LQwJPWMlITuNAqYrmgdw -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RD2LQwJPWMlITuNAqYrmgdw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R761QV8dMRAfSENxsaLauzc"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RHYb0S8NCN0k70dklz3ZTZ"/>
+        <rdfs:label>Data bias mitigated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDGcwrZBhfMZb8jszGyCkmX -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDGcwrZBhfMZb8jszGyCkmX">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R93UWyVFIF2fph3QpihTEKe"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R8008E3ehVyXaLzhXTgm0wq"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9h4Jx09S4qaqWUlmxxOHNt"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBkOCzBJgIV1ZiYnBt8yIvL"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>occurs in phase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdrseyJdMDVKr92nAFqcrx -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDdrseyJdMDVKr92nAFqcrx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCpv4HJrU5NXHvj5eru3j8y"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBumYvSYTZZ0Nigvchio5Mz"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RUOHN1GqWo2pYzNh9gTFyL"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algorithmic bias mitigated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDnwNlSDORGARm6dd9eQa05 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDnwNlSDORGARm6dd9eQa05">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RuX2G7ceEzudJ42bcqwuF1"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R8008E3ehVyXaLzhXTgm0wq"/>
+        <rdfs:label>occurs in data visualization phase</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtFoPjbGNdSwv9LhtXvd8U -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDtFoPjbGNdSwv9LhtXvd8U">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8008E3ehVyXaLzhXTgm0wq"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9h4Jx09S4qaqWUlmxxOHNt"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBkOCzBJgIV1ZiYnBt8yIvL"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RBGyWYpDDTukaovhDBu4FkI"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is part of pipeline</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDzw8Br7xm8UXDjhqtAUbDo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDzw8Br7xm8UXDjhqtAUbDo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBVWF5yDjRGIwCEgj0QzJQ4"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib"/>
+        <rdfs:label>raises</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTZso25tgVgjh7iV9n8tPd -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RTZso25tgVgjh7iV9n8tPd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RINyZh1QzXpie3t2PHSuiu"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R7PJtYLZ6kgowyFLsB2X4eM"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9K7A3Bj63K3gE5kQ2nMAe8"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9P7bFRDltNtdYDkJ23aPKt"/>
+        <rdfs:label>Over and Underfitting mitigated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfT2HZsPqBreOj2XG10yec -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RfT2HZsPqBreOj2XG10yec">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCwglNZnM5EVWo3nPF7xg35"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RIwYPBaQvxh6hxWwAbkiiz"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RO77ggPCkf8Yy5ZjLjGgjY"/>
+        <rdfs:label>Evaluation bias mitigated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhrSKmM0ErUxIH1UC4nYbD -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RhrSKmM0ErUxIH1UC4nYbD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBETj2vtH7FBBGUHZSnQnVa"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R9VKEq6OF36yzsfUHAtXwK3"/>
+        <rdfs:label>works in the area of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoPQdlL5NUQfBBpScvqLTq -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RoPQdlL5NUQfBBpScvqLTq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBlwCEn9bpCEE61IqQUk0OI"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R79sYIVkKLadp73KemjmQXw"/>
+        <rdfs:label>Can represent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxeX6bIAZikfKGyitG8H55 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RxeX6bIAZikfKGyitG8H55">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBlwCEn9bpCEE61IqQUk0OI"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R93UWyVFIF2fph3QpihTEKe"/>
+        <rdfs:label>can contain</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RyQ1X46NXVUqOhjUAi4dQx -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RyQ1X46NXVUqOhjUAi4dQx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBVWF5yDjRGIwCEgj0QzJQ4"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RB9NoVo8qzGFrNMA7m62oOF"/>
+        <rdfs:label>collects data from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5L0b0AVfGRKs0WecDyMwG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5L0b0AVfGRKs0WecDyMwG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>Seasonal Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6xv2J2BASAl0U7hXTYJYL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6xv2J2BASAl0U7hXTYJYL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib"/>
+        <rdfs:label>Fairness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R706hMCH9EIfwt5A3KHebdx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R706hMCH9EIfwt5A3KHebdx">
+        <rdfs:label>Ethics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R761QV8dMRAfSENxsaLauzc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R761QV8dMRAfSENxsaLauzc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>Data bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R79sYIVkKLadp73KemjmQXw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R79sYIVkKLadp73KemjmQXw">
+        <rdfs:label>Population</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PJtYLZ6kgowyFLsB2X4eM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7PJtYLZ6kgowyFLsB2X4eM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Process mining</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QWAnTvZ25NMU1nGFATS4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7QWAnTvZ25NMU1nGFATS4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib"/>
+        <rdfs:label>Accuracy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7YZ03I9JWwpCl3jiXkNYTf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7YZ03I9JWwpCl3jiXkNYTf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuX2G7ceEzudJ42bcqwuF1"/>
+        <rdfs:label>Data Visualization and Anchoring bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tmt3bZQiJTqXiMEdTcVgB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7tmt3bZQiJTqXiMEdTcVgB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBkOCzBJgIV1ZiYnBt8yIvL"/>
+        <rdfs:label>Data Enrichment Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ziVRIaP1g1sPQkzAJ6zjJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ziVRIaP1g1sPQkzAJ6zjJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Simple random sampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8008E3ehVyXaLzhXTgm0wq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8008E3ehVyXaLzhXTgm0wq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBGyWYpDDTukaovhDBu4FkI"/>
+        <rdfs:label>Data Visualization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBGyWYpDDTukaovhDBu4FkI"/>
+        <rdfs:label>Data Modeling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Ta2o2iQ7WaCis33Sw5Gy9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Ta2o2iQ7WaCis33Sw5Gy9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuX2G7ceEzudJ42bcqwuF1"/>
+        <rdfs:label>Data Visualization and Framing Effect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8b5D1IvnWUR2b5wfGxiYCe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8b5D1IvnWUR2b5wfGxiYCe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuX2G7ceEzudJ42bcqwuF1"/>
+        <rdfs:label>Data Visualization, Confirmation bias and Signal Error</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ftVnznjRQfm0583hQI7iS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ftVnznjRQfm0583hQI7iS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Angel-based Outlier Detection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8h1HbgnxtffKEM1PBdpviH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8h1HbgnxtffKEM1PBdpviH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:label>Hot Hand Fallacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hjYp3JYn4UyA3M7rRuNUY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8hjYp3JYn4UyA3M7rRuNUY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:label>Group Attribution Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93UWyVFIF2fph3QpihTEKe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R93UWyVFIF2fph3QpihTEKe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib"/>
+        <rdfs:label>Biasness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99LRumVCN3nr0Kmp2s4XGJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R99LRumVCN3nr0Kmp2s4XGJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9h4Jx09S4qaqWUlmxxOHNt"/>
+        <rdfs:label>Deployment Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9K7A3Bj63K3gE5kQ2nMAe8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9K7A3Bj63K3gE5kQ2nMAe8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Penalty methods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9P7bFRDltNtdYDkJ23aPKt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9P7bFRDltNtdYDkJ23aPKt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>L1/4 regularization method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9UKeyIzWZezK4V85lTXqcB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9UKeyIzWZezK4V85lTXqcB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9VKEq6OF36yzsfUHAtXwK3"/>
+        <rdfs:label>Data Science Lifecycle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VKEq6OF36yzsfUHAtXwK3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9VKEq6OF36yzsfUHAtXwK3">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Data Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9WbFxACbEvwWjSvOyQuDtQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9WbFxACbEvwWjSvOyQuDtQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>ARIMA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9h4Jx09S4qaqWUlmxxOHNt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9h4Jx09S4qaqWUlmxxOHNt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBGyWYpDDTukaovhDBu4FkI"/>
+        <rdfs:label>Data Analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9wwtyKgtlpSe82qSHbF1wt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9wwtyKgtlpSe82qSHbF1wt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuX2G7ceEzudJ42bcqwuF1"/>
+        <rdfs:label>Data Visualization and Availability bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9NoVo8qzGFrNMA7m62oOF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB9NoVo8qzGFrNMA7m62oOF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlwCEn9bpCEE61IqQUk0OI"/>
+        <rdfs:label>Database</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBETj2vtH7FBBGUHZSnQnVa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBETj2vtH7FBBGUHZSnQnVa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVWF5yDjRGIwCEgj0QzJQ4"/>
+        <rdfs:label>Data scientist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBGyWYpDDTukaovhDBu4FkI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBGyWYpDDTukaovhDBu4FkI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9UKeyIzWZezK4V85lTXqcB"/>
+        <rdfs:label>Data Science pipeline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBPdv003L8wP2e0Z7kvnWoc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPdv003L8wP2e0Z7kvnWoc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:label>Bandwagon Effect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVWF5yDjRGIwCEgj0QzJQ4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVWF5yDjRGIwCEgj0QzJQ4">
+        <rdfs:label>Practitioner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBkOCzBJgIV1ZiYnBt8yIvL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBkOCzBJgIV1ZiYnBt8yIvL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBGyWYpDDTukaovhDBu4FkI"/>
+        <rdfs:label>Data Scrubbing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlwCEn9bpCEE61IqQUk0OI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlwCEn9bpCEE61IqQUk0OI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R79sYIVkKLadp73KemjmQXw"/>
+        <rdfs:label>data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBumYvSYTZZ0Nigvchio5Mz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBumYvSYTZZ0Nigvchio5Mz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>aif360</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBGyWYpDDTukaovhDBu4FkI"/>
+        <rdfs:label>Data Ingestion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RByLkRyBcoYmvO8UwkKQcx2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RByLkRyBcoYmvO8UwkKQcx2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RuX2G7ceEzudJ42bcqwuF1"/>
+        <rdfs:label>Data Visualization and Overconfidence bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC7SpANHdz14XC33YhFzn3n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC7SpANHdz14XC33YhFzn3n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib"/>
+        <rdfs:label>Transparency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCG7uXaVJjLRJDCeQrvjH4v -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCG7uXaVJjLRJDCeQrvjH4v">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Fair representation learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCL4om6w6z0Q7LX2R0AKX7a -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCL4om6w6z0Q7LX2R0AKX7a">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>Sampling Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCgd972qbCuaqpjuPZY7j0I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgd972qbCuaqpjuPZY7j0I">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib"/>
+        <rdfs:label>Confidentiality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpv4HJrU5NXHvj5eru3j8y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCpv4HJrU5NXHvj5eru3j8y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:label>Algorithmic Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwglNZnM5EVWo3nPF7xg35 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCwglNZnM5EVWo3nPF7xg35">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:label>Evaluation Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDAyoj6RFlHT64ktYstwS0E -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDAyoj6RFlHT64ktYstwS0E">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>Selection Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSyQife4U4BFBQj2xQnRPb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSyQife4U4BFBQj2xQnRPb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>Survivorship Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZXp5dLL4nukWrkklBIgw6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZXp5dLL4nukWrkklBIgw6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>Measurement Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDe7yIFqMMY1wXlORUJKRjC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDe7yIFqMMY1wXlORUJKRjC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R84do8N2DdxPMmtRUfeqWLc"/>
+        <rdfs:label>Aggregation Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDoxovIDCCuJxoiBmI6zGZm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDoxovIDCCuJxoiBmI6zGZm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Multitask learning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RHYb0S8NCN0k70dklz3ZTZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RHYb0S8NCN0k70dklz3ZTZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>REPAIR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RINyZh1QzXpie3t2PHSuiu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RINyZh1QzXpie3t2PHSuiu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9h4Jx09S4qaqWUlmxxOHNt"/>
+        <rdfs:label>Overfitting and Underfitting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIwYPBaQvxh6hxWwAbkiiz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RIwYPBaQvxh6hxWwAbkiiz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>SMOTE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJaovI2he5NB73O8XNb6vQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJaovI2he5NB73O8XNb6vQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9h4Jx09S4qaqWUlmxxOHNt"/>
+        <rdfs:label>Rescue Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLNsXGpg7Qh9b6lYbgnJJt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLNsXGpg7Qh9b6lYbgnJJt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBlwCEn9bpCEE61IqQUk0OI"/>
+        <rdfs:label>training data</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RO77ggPCkf8Yy5ZjLjGgjY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RO77ggPCkf8Yy5ZjLjGgjY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Subgroup Evaluation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPl6d14SZ3MEPQg9ADBdib">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R706hMCH9EIfwt5A3KHebdx"/>
+        <rdfs:label>Ethical concern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRYWqgVYajuBn71Ni8rvVa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRYWqgVYajuBn71Ni8rvVa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>LOF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUOHN1GqWo2pYzNh9gTFyL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUOHN1GqWo2pYzNh9gTFyL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>fairecsys</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZhlUnaJd7TiqBjdYgCJrr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZhlUnaJd7TiqBjdYgCJrr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBkOCzBJgIV1ZiYnBt8yIvL"/>
+        <rdfs:label>Exclusion Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdP40VtyWKicC7NXTFhisx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdP40VtyWKicC7NXTFhisx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>KNN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47">
+        <rdfs:label>Mitigation method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rn0HuKKdEG8qU8nEnmYByW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rn0HuKKdEG8qU8nEnmYByW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>Historical Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoK93ufw646pt4ptlGokcC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RoK93ufw646pt4ptlGokcC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBxby40N1Es8mSl8vV72B9l"/>
+        <rdfs:label>Survey Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rsy768QJNiHblI1U6y2nR6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rsy768QJNiHblI1U6y2nR6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Regression Analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RuX2G7ceEzudJ42bcqwuF1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RuX2G7ceEzudJ42bcqwuF1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8008E3ehVyXaLzhXTgm0wq"/>
+        <rdfs:label>Cognitive Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RzoOd8WBg6hjSXp3lZ0RDP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RzoOd8WBg6hjSXp3lZ0RDP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rj15wCWxrAdyyqrpuSyx47"/>
+        <rdfs:label>Stratified random sampling</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
