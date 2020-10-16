@@ -408,15 +408,3 @@ Process Mining Algorithms can reduce the gap between overfitting and under-fitti
 [85]	T. K.- Bmj and  undefined 2003, “Effect of interpretive bias on research evidence,” bmj.com, Accessed: Jul. 26, 2020. [Online]. Available: https://www.bmj.com/content/326/7404/1453.short.
 
 [86]	F. Smink, D. Van Hoeken, H. H.-C. psychiatry reports, and  undefined 2012, “Epidemiology of eating disorders: incidence, prevalence and mortality rates,” Springer, Accessed: Jul. 26, 2020. [Online]. Available: https://link.springer.com/article/10.1007%252Fs11920-012-0282-y.
-
-[87]	F. Kamiran, T. C.-K. and I. Systems, and  undefined 2012, “Data preprocessing techniques for classification without discrimination Faisal Kamiran · Toon Calders,” Springer, vol. 33, no. 1, pp. 1–33, Oct. 2011, doi: 10.1007/s10115-011-0463-8.
-
-[88]	F. P. Calmon, D. Wei, B. Vinzamuri, K. N. Ramamurthy, and K. R. Varshney, “Optimized Pre-Processing for Discrimination Prevention.” Accessed: Jul. 26, 2020. [Online]. Available: http://papers.nips.cc/paper/6988-optimized-pre-processing-fordiscrimination-prevention.
-
-[89]	R. Zemel, Y. ( Ledell, ) Wu, K. Swersky, T. Pitassi, and C. Dwork, “Learning Fair Representations,” 2013. Accessed: Jul. 26, 2020. [Online]. Available: http://www.jmlr.org/proceedings/papers/v28/zemel13.pdf.
-
-[90]	B. H. Zhang, B. Lemoine, and M. Mitchell, “Mitigating Unwanted Biases with Adversarial Learning,” in AIES 2018 - Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society, Dec. 2018, vol. 18, pp. 335–340, doi: 10.1145/3278721.3278779.
-
-[91]	T. Kamishima, S. Akaho, H. Asoh, and J. Sakuma, “Fairness-aware classifier with prejudice remover regularizer,” in Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics), 2012, vol. 7524 LNAI, no. PART 2, pp. 35–50, doi: 10.1007/978-3-642-33486-3_3.
-
-[92]	M. Hardt Google, E. Price, and N. Srebro, “Equality of Opportunity in Supervised Learning.” Accessed: Jul. 26, 2020. [Online]. Available: http://papers.nips.cc/paper/6373-equality-of-opportunity-in-supervised-learning.
