@@ -35,14 +35,14 @@ In this phase, the data are collected and imported by the data scientists from d
 ### Data Bias (Representation Bias)
 “A systematic distortion in the data that compromises its representativeness.” It is directly related to sampling that confirms whether the sample is representative of the larger population or not. It occurs during the data accumulation phase. Although capturing bias-free dataset is not feasible, data scientists can estimate the biasness in the data by comparing the sample with multiple samples having different contexts [1].
 * **Example:**
-In [2], the writers claimed that machine learning algorithms discriminate against people on race, gender and ethnicity. They represent that the databanks of Adience and IJB-A primarily hold light-skinned subjects — 86.2 percent and 79.6% respectively, which can bias towards the underrepresented dark skin groups. 
+In [2], the writers claimed that machine learning algorithms discriminate against people on race, gender and ethnicity. They represent that the databanks of Adience and IJB-A primarily hold light-skinned subjects — 86.2% and 79.6% respectively, which can bias towards the underrepresented dark skin groups. 
 * **Best Practices:**
 In [3], novel data representation bias Removal (REPAIR) technique is introduced to resolve the generalization issues present in training datasets by employing Repair-Algorithm. Proper labeling of the data just like the nutrition chart is another way to reduce data bias by task-oriented categorization of data [4]. Using supporting sheets for datasets can be valuable while lessening the data bias. Advanced data mining and proper data targeting are some other options for data recruiters to hire in order to obtain less discriminated data [5].
 
 ### Selection Bias
 Selection bias occurs when ‘wrong’ contributors are selected/allowed to contribute, and therefore, the proper randomization is not achieved. 
 * **Example:**
-If the residents of rural areas were selected to participate in a city transportation network related project. Due to the nature of VGI projects selection bias is one of the most important and influencing types of biases and also relatively hard to detect and treat [6].
+Selection bias occurs if for example the residents of rural areas were selected to participate in a city transportation network related project. Due to the nature of VGI projects selection bias is one of the most important and influencing types of biases and also relatively hard to detect and treat [6].
 * **Best Practices:**
 To correct this bias, it is especially important to ensure that selection bias is avoided when recruiting and retaining the sample population. Picking up subgroups randomly can also be beneficial to limit selection bias [7]. 
  
