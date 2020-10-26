@@ -10,7 +10,7 @@ define([
 			Jupyter.notebook.
 			insert_cell_above('code').
         // Define default cell here
-			set_text(`from ipywidgets import Button, Layout, jslink, IntText, IntSlider, Checkbox, FloatText, Text, HTML
+			set_text(`from ipywidgets import Button, HTML
 
 
 def create_expanded_button(description, button_style):
@@ -27,16 +27,6 @@ def create_link_button(description, link, button_style):
 	
 def create_checkbox(description, value):
 	return Checkbox(value=value, description=description)
-
-top_left_button = create_expanded_button("Top left", 'info')
-top_right_button = create_expanded_button("Top right", 'success')
-bottom_left_button = create_expanded_button("Bottom left", 'danger')
-bottom_right_button = create_expanded_button("Bottom right", 'warning')
-
-top_left_text = IntText(description='Top left', layout=Layout(width='auto', height='auto'))
-top_right_text = IntText(description='Top right', layout=Layout(width='auto', height='auto'))
-bottom_left_slider = IntSlider(description='Bottom left', layout=Layout(width='auto', height='auto'))
-bottom_right_slider = IntSlider(description='Bottom right', layout=Layout(width='auto', height='auto'))
 
 from ipywidgets import GridspecLayout
 
