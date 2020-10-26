@@ -10,7 +10,7 @@ define([
 			Jupyter.notebook.
 			insert_cell_above('code').
         // Define default cell here
-			set_text(`from ipywidgets import Button, HTML
+			set_text(`from ipywidgets import Button, HTML, Layout
 
 
 def create_expanded_button(description, button_style):
