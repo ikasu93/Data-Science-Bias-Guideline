@@ -2,6 +2,13 @@
 ## Introduction
 In recent years, **data science** has become an indispensable part of our society. Over time, we have become reliant on this technology because of its opportunity to gain value and new insights from data in any field - business, socializing, research and society. At the same time, it raises questions about how justified we are in placing our trust in these technologies. There is a risk that such powers may lead to biased, inappropriate or unintended actions. Therefore, **ethical considerations** which might occur as the result of data science practices should be carefully considered and these potential problems should be identified during the data science lifecycle and mitigated if possible.  However, a typical data scientist has not enough knowledge for identifying these challenges and it is not always possible to include an ethics expert during data science production. The aim of this study is to provide a **practical guideline** to data scientists and **increase their awareness**. In this work, we reviewed **different sources of biases** and grouped them under different stages of the **data science lifecycle**. The work is still under progress. The aim of early publishing is to collect community feedback and improve the curated knowledge base for bias types and solutions.   
 ![OSEMN](src/docs/media/images/osemn.png)
+## Background reading
+* Barocas and Selbst (2016) “Big Data’s Disparate Impact” [http://www.californialawreview.org/wp-content/uploads/2016/06/2Barocas-Selbst.pdf](pdf)
+* White House Report on Big Data (2014) “Big Data: Seizing Opportunities, Preserving Values” [https://obamawhitehouse.archives.gov/sites/default/files/docs/big_data_privacy_report_may_1_2014.pdf](pdf)
+* Brauneis and Goodman (2017) “Algorithmic Transparency for the Smart City” [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3012499](pdf)
+* Kroll et al. (2017) “Accountable Algorithms” [https://scholarship.law.upenn.edu/penn_law_review/vol165/iss3/3/](pdf)
+* Matthew Salganik “Bit by Bit: Social Research in the Digital Age” [https://www.bitbybitbook.com/en/1st-ed/preface/](read online)
+* Cathy O’Neil “Weapons of Math Destruction”
 ## Note
 This guideline shall provide an overview in form of a guideline for data scientists to recognize those biases. It provides links to examples and best practice methods.
 The data scientist can tag parts of his/her code with bias and mitigation methods and in the end create a summary of keywords towards those tags.
