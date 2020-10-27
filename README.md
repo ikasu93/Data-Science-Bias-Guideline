@@ -166,9 +166,19 @@ Studies have shown the probability of unfairness in data is much greater than th
 Online retailer Amazon, whose global workforce is 60 percent male and where men hold 74 percent of the company’s managerial positions, recently discontinued use of a recruiting algorithm after discovering gender bias. The data that engineers used to create the algorithm were derived from the resumes submitted to Amazon over a 10-year period, which were predominantly from white males. The algorithm was taught to recognize word patterns in the resumes, rather than relevant skill sets, and these data were benchmarked against the company’s predominantly male engineering department to determine an applicant’s fit. As a result, the AI software penalized any resume that contained the word “women’s” in the text and downgraded the resumes of women who attended women’s colleges, resulting in gender bias [49].
 * **Sources of Algorithmic Bias**[48]:
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Nr. |  |
+--- | --- |
+1 | 301 |
+--- | --- |
+2 | 301 |
+--- | --- |
+3 | 301 |
+--- | --- |
+4 | 301 |
+--- | --- |
+5 | 301 |
+--- | --- |
+6 | 301 |
 
 1. **Biased Training data** can be the source of algorithmic bias.
 2.	Algorithms can be biased via **differential use of information** (using morally irrelevant categories to make morally relevant and sensitive judgements).
