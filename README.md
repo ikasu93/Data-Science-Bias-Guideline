@@ -169,15 +169,10 @@ Online retailer Amazon, whose global workforce is 60 percent male and where men 
 Nr. |  |
 --- | --- |
 1 | 301 |
---- | --- |
 2 | 301 |
---- | --- |
 3 | 301 |
---- | --- |
 4 | 301 |
---- | --- |
 5 | 301 |
---- | --- |
 6 | 301 |
 
 1. **Biased Training data** can be the source of algorithmic bias.
