@@ -27,7 +27,8 @@ If you have this bias mitigated, you also tag the section with the method zusamm
 #### Autocompletion
 To achieve this, make sure that the Tagging tool is enabled. Click on the tagging input field of the section or line where you want to insert a keyword, click on the empty button ("**Autocomplete**") to the right of the Overview button. Autocompletion is now activated in this input field. If you want to enable auto-completion for other fields, proceed in the same way.
 In case the keyword for the bias or best practice method is not included, please insert it manually.
-![Autocompletion](src/docs/media/images/Autocompletion.png)
+![Autocompletion](src/docs/media/images/Autocompletion.PNG)
+
 In order to create an overview of biases that exists in the code and mitigation methods you can click on the "Add summary" button in order to create the Overview of keywords in your implementation.
 
 
