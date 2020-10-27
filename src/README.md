@@ -35,7 +35,7 @@ jupyter nbextensions_configurator enable --user
 
 7. **Enable Guideline extension**
 ```
-call jupyter nbextension enable firstExtension/main
+call jupyter nbextension enable taggable_bias_guideline/main
 ```
 
 8.  **Start jupyter notebook**
