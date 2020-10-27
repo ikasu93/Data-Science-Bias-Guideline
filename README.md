@@ -12,14 +12,9 @@ Thank you very much.
 
 ## Description
 ### Tagging
-To tag keywords, please use the Jupyter notebook tagging tool, in which you unlock - First option:
+To tag keywords, please use the Jupyter notebook tagging tool, in which you unlock:
 * Click on the **"Activate/Deactivate Tags" Button**.
 ![Autocompletion](src/docs/media/images/buttons_tags.png)
-
-Alternatively:
-1. "View" tab
-2. "Cell Toolbar"
-3. click on "Tags"
 
 Now you can create tags for each of your ln[...]. Please tag areas in your code where you have found biases, for example if you have algorithmic bias in your code, tag those ln[...] with "algorithmicbias" - so all written together and small caps.
 If you have this bias mitigated, you also tag the section with the method zusammengeschrieben e.g. "aif360". There is a way to automatically generate these keywords. This is done with the help of **autocompletion**.
