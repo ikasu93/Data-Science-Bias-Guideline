@@ -32,7 +32,7 @@ In order to create an overview of biases that exists in the code and mitigation 
 
 ## Data Ingestion Phase
 In this phase, the data are collected and imported by the data scientists from databases or self-produced data collections.
-![Data Ingestion Phase](docs/media/images/osemn - o.png)
+![Data Ingestion Phase](src/docs/media/images/osemn - o.png)
 ### Data Bias (Representation Bias)
 “A systematic distortion in the data that compromises its representativeness.” It is directly related to sampling that confirms whether the sample is representative of the larger population or not. It occurs during the data accumulation phase. Although capturing bias-free dataset is not feasible, data scientists can estimate the biasness in the data by comparing the sample with multiple samples having different contexts [1].
 * **Example:**
