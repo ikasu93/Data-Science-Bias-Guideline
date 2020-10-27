@@ -44,6 +44,7 @@ jupyter notebook
 ```
 9.  **Create a new Python file** or open an existing jupyter notebook file
 10. Click on **Start Button**('Start Guideline') to start guideline
+![Start guideline](docs/media/images/buttons_start.png)
 
 **Note:** make sure that the extension is enabled by observing the "Nbextensions" tab in the jupyter notebook.
 ![As example](docs/media/images/extension.png)
