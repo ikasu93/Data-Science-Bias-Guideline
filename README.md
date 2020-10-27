@@ -35,7 +35,7 @@ In this phase, the data are collected and imported by the data scientists from d
 * **Example:**
 In [2], the writers claimed that machine learning algorithms discriminate against people on race, gender and ethnicity. They represent that the databanks of Adience and IJB-A primarily hold light-skinned subjects — 86.2% and 79.6% respectively, which can bias towards the underrepresented dark skin groups. 
 * **Best Practices:**
-In [3], novel data representation bias Removal (REPAIR) technique is introduced to resolve the generalization issues present in training datasets by employing Repair-Algorithm. Proper labeling of the data just like the nutrition chart is another way to reduce data bias by task-oriented categorization of data [4]. Using supporting sheets for datasets can be valuable while lessening the data bias. Advanced data mining and proper data targeting are some other options for data recruiters to hire in order to obtain less discriminated data [5].
+In [3], novel data representation bias Removal (**REPAIR**) technique is introduced to resolve the generalization issues present in training datasets by employing Repair-Algorithm. Proper labeling of the data just like the nutrition chart is another way to reduce data bias by task-oriented categorization of data [4]. Using supporting sheets for datasets can be valuable while lessening the data bias. Advanced data mining and proper data targeting are some other options for data recruiters to hire in order to obtain less discriminated data [5].
 * **More sources:** [Data and algorithmic bias in the web by Ricawrdo Baeza-Yates](https://dl.acm.org/doi/abs/10.1145/2908131.2908135), 
 
 ### Selection Bias
