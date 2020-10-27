@@ -1,7 +1,7 @@
 # A Tutorial Using the Juypter Notebook extension
 Please be sure to have Python installed.
 The newest Python version (Python3) is supported.
-
+Only C++ build tools (14 or greater).
 ![The Jupyter notebook extension guideline](docs/media/images/guideline_2.png)
 
 **Note**: please use https://forms.gle/9oWTBhh87yBAd3XS8 to evaluate this extension. If there are any problems, feel free to add issues in this repository.
@@ -12,7 +12,7 @@ Applied steps:
 2.  run the "installation.bat" script to install the extension the first time
 3.  after that, you can run the "startGuideline.bat" to start the guideline
 4.  **Create a new Python file** or open an existing jupyter notebook file. Those buttons should appear.![Those buttons should appear.](docs/media/images/buttons.png)
-5. Click on **Start Button**('Start Guideline') to start guideline
+5.  Click on **Start Button**('Start Guideline') to start guideline
 
 
 ## (Alternatively) Instruction on using guideline via cmd
@@ -53,9 +53,10 @@ Additionally, there are links for description, examples and best practices to ea
 The link will redirect you to a Github page that provides this information. 
 
 ## Procedure
-The guideline is for **self-evaluation purposes**. It should give you an overview which biases can occur and show with examples how they can look like. 
+The guideline is for **education**(awareness of different biases) and **self-evaluation purposes**. It should give you an overview which biases can occur and show with examples how they can look like. 
 ### Tagging
 If it occurs in your code bias, you can **tag the section** of the code (please see https://github.com/ikasu93/Data-Science-Bias-Guideline#tagging). You can also tag the section with the mitigation method. For this reason it makes sense to structure your code with ln[] to recognize sections that have been tagged with one or more tags.
 ### Create overview
-After completing the implementation and the bias analysis, you have the possibility to create an overview of the tags or the biases and mitigation methods with the second button('Add summary'), in order to have an overview and a transparency of the results to the biases in the analysis.
+After completing the implementation and the bias analysis, you have the possibility to create an overview of the tags or the biases and mitigation methods with the second button('Add summary'). This function serves as a temporary solution to give data scientists an overview of all keywords in their code.
+The main purpose of this function is to allow you to access and save the tags using selectors.
 
