@@ -18,9 +18,6 @@ Autocompletion | To achieve this, make sure that the Tagging tool is enabled. Cl
 Tags overview | In order to create an overview of biases that exists in the code and mitigation methods you can click on the "Add summary" button in order to create the Overview of keywords in your implementation. |
 
 ![Autocompletion](src/docs/media/images/Autocompletion.PNG)
-
-![Autocompletion](src/docs/media/images/buttons_tags.png)
-
 ## Data Ingestion Phase
 In this phase, the data are collected and imported by the data scientists from databases or self-produced data collections.
 ![Data Ingestion Phase](src/docs/media/images/osemn_o.png)
