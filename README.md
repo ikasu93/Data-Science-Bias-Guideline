@@ -164,9 +164,8 @@ In this phase, data models are predicted and forecasted using  e.g. artificial i
 Studies have shown the probability of unfairness in data is much greater than that of algorithms. More precisely, datasets are previously **discriminated before passing through the algorithms** that exhibit biased decisional pictures [46]. Machine learning algorithms based on AI, are commonly used while training the models in a supervised learning framework. Fairness is an increasingly important concern as autonomous models are used to support decision making in high-stakes applications such as mortgage lending, hiring, and prison sentencing [47]. To understand the responsibility of model failure, understanding the accountability matrix for algorithms is essential. Algorithmic bias is when an **algorithm does not neutrally extract or transform the data**. Scholars are trying hard to figure out the ways of mitigating the algorithmic biases present in Google searches, Facebook feeds, or in YouTube recommendations [48].
 * **Example:**
 Online retailer Amazon, whose global workforce is 60 percent male and where men hold 74 percent of the company’s managerial positions, recently discontinued use of a recruiting algorithm after discovering gender bias. The data that engineers used to create the algorithm were derived from the resumes submitted to Amazon over a 10-year period, which were predominantly from white males. The algorithm was taught to recognize word patterns in the resumes, rather than relevant skill sets, and these data were benchmarked against the company’s predominantly male engineering department to determine an applicant’s fit. As a result, the AI software penalized any resume that contained the word “women’s” in the text and downgraded the resumes of women who attended women’s colleges, resulting in gender bias [49].
-* **Sources of Algorithmic Bias**[48]:
 
-Nr. |  |
+| **Sources of Algorithmic Bias**[48]: |
 --- | --- |
 1 | **Biased Training data** can be the source of algorithmic bias. |
 2 | Algorithms can be biased via **differential use of information** (using morally irrelevant categories to make morally relevant and sensitive judgements). |
