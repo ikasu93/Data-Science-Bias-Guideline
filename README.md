@@ -32,7 +32,7 @@ In order to create an overview of biases that exists in the code and mitigation 
 
 ## Data Ingestion Phase
 In this phase, the data are collected and imported by the data scientists from databases or self-produced data collections.
-![Data Ingestion Phase](src/docs/media/images/buttons.png)
+![Data Ingestion Phase](src/docs/media/images/osemn_o.png)
 ### Data Bias (Representation Bias)
 “A systematic distortion in the data that compromises its representativeness.” It is directly related to sampling that confirms whether the sample is representative of the larger population or not. It occurs during the data accumulation phase. Although capturing bias-free dataset is not feasible, data scientists can estimate the biasness in the data by comparing the sample with multiple samples having different contexts [1].
 * **Example:**
@@ -96,6 +96,7 @@ Recognizing historical bias requires a retrospective understanding of the applic
 
 ## Data Scrubbing Phase
 This phase is also known as data cleaning phase. In this phase, the data is cleaned so that machines can understand and process it.
+![Data Ingestion Phase](src/docs/media/images/osemn_s.png)
 #### Exclusion Bias
 Data cleansing is an essential phase of the data science lifecycle that comes after data collection. In ethical perspective, removal of corrupt or unethical data involving both upper and lower extremes and exceptions is crucially important. For instance, outliers (values that deviate from the pattern) and duplications, from big raw data to make it less redundant, more consistent and reliable for model training. Since excluding un-actionable and duplicate insights is an important part while cleaning noise from the data, experts get biased while they get into it. Exclusion bias occurs when data handlers do not identify and remove the undesired chunks of data that should be removed in order to make data ethical and to maintain the accuracy of the results [23].
 * **Example 1:**
@@ -115,6 +116,7 @@ You can find an additional example at https://theconversation.com/data-ethics-is
 
 ## Data Visualization Phase
 Here significant patterns and trends are filtered by statistical methods.
+![Data Ingestion Phase](src/docs/media/images/osemn_e.png)
 ### Cognitive Biases
 A picture speaks louder than words. Studies have shown that visual transformations of data actually affect the data that impacts both decision making and the results. Tools that present data into the visual formats always try to make visualization easy for the auditors and by doing so, they may alter the original pattern of data [31]. Such improperly created graphs can trigger cognitive biases for the viewers [32]. Five types of cognitive biases are discussed in [33].
 
@@ -155,6 +157,7 @@ Confirmation Bias can be countered by continuously challenging your thoughts, by
 
 ## Data Modeling Phase
 In this phase, data models are predicted and forecasted using  e.g. artificial intelligence algorithms.
+![Data Ingestion Phase](src/docs/media/images/osemn_m.png)
 ### Algorithmic Bias
 Studies have shown the probability of unfairness in data is much greater than that of algorithms. More precisely, datasets are previously discriminated before passing through the algorithms that exhibit biased decisional pictures [46]. Machine learning algorithms based on AI, are commonly used while training the models in a supervised learning framework. Fairness is an increasingly important concern as autonomous models are used to support decision making in high-stakes applications such as mortgage lending, hiring, and prison sentencing [47]. To understand the responsibility of model failure, understanding the accountability matrix for algorithms is essential. Algorithmic bias is when an algorithm does not neutrally extract or transform the data. Scholars are trying hard to figure out the ways of mitigating the algorithmic biases present in Google searches, Facebook feeds, or in YouTube recommendations [48].
 * **Example:**
@@ -215,6 +218,7 @@ To mitigate evaluation bias an approach namely Subgroup Evaluation can be used t
 
 ## Data Analysis Phase
 Here the results are interpreted, and knowledge is extracted.
+![Data Ingestion Phase](src/docs/media/images/osemn_n.png)
 ### Deployment Bias
 Deployment Bias occurs after model deployment, when a system is used or interpreted in inappropriate ways. A model is built to carry out a particular task but what happens when an autonomous model is moderated by institutional structure (also called Framing Trap) [78]or its recommendations would be interpreted erroneously by humans, a deployment bias will occur [79]. 
 * **Example:** 
