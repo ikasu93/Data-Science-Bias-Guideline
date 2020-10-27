@@ -7,8 +7,9 @@ This guideline shall provide an overview in form of a guideline for data scienti
 The data scientist can tag parts of his/her code with bias and mitigation methods and in the end create a summary of keywords towards those tags.
 We would like to ask your feedback in one of the following ways:
 
-Google Docs: | https://docs.google.com/document/d/1XB5sE8fEhTbT17800OyhlAe7jN6fT12wqT7j37ZyNBY/edit?usp=sharing |
+Document Type | Link |
 --- | --- |
+Google Docs: | https://docs.google.com/document/d/1XB5sE8fEhTbT17800OyhlAe7jN6fT12wqT7j37ZyNBY/edit?usp=sharing |
 Google forms survey | https://forms.gle/tN75M9GMBgTj3rCH7 |
 
 Thank you very much.
