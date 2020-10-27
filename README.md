@@ -72,6 +72,7 @@ Survey can be biased by extreme behavior of the respondents. When they are asked
 If there is personal question included in the survey regarding sex or drugs, then it’s probable that a majority of respondents may leave the questionnaire unanswered. In this case, non-response bias will occur. 
 * **Best Practices:** 
 To avoid such biases, balanced questionnaires should be designed. Try to avoid the queries (political, religious) that emotionally charge the participants. One should design the questions by understanding the demographics as well. Allow people to say “No” [17]. 
+* **More sources:** [Accounting for imperfect detection and survey bias in statistical analysis of presence-only data by Robert M. Dorazio](https://onlinelibrary.wiley.com/doi/full/10.1111/geb.12216)
 
 ### Seasonal Bias
 Sometimes the available data is related to seasonal entities which simply means that the dataset exhibits seasonal growth patterns. Data interpreters when considering this kind of situational data (Time Series) for training the supervised models, they are said to be seasonally biased. Additionally, predictive models are gravely impacted by seasonality because of the dynamic fluctuations present in the records. 
