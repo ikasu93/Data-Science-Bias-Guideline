@@ -10,7 +10,7 @@ In recent years, **data science** has become an indispensable part of our societ
 * Matthew Salganik “Bit by Bit: Social Research in the Digital Age” [read online](https://www.bitbybitbook.com/en/1st-ed/preface/)
 * Cathy O’Neil “Weapons of Math Destruction”
 ## Note
-This guideline shall provide an overview in form of a guideline for data scientists to recognize those biases. It provides links to examples and best practice methods.
+This guideline shall provide an overview in form of a guideline for data scientists to recognize those biases based on [this article](https://arxiv.org/abs/2009.09795). It provides links to examples and best practice methods.
 The data scientist can tag parts of his/her code with bias and mitigation methods and in the end create a summary of keywords towards those tags.
 We would like to ask your feedback in one of the following ways:
 
