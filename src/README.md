@@ -13,11 +13,11 @@ Microsoft Visual C++ 14.0 (or greater) | https://visualstudio.microsoft.com/down
 ## Instruction on using guideline via script on Windows
 
 
-Applied steps: |  |
+Nr. | Applied steps: |
 --- | --- |
-1 | download the "src" folder |
-2 | run the "installation.bat" script to install the extension the first time | 
-3 | after that, you can run the "startGuideline.bat" to start the guideline |
+1 | Download the "src" folder |
+2 | Run the "installation.bat" script to install the extension the first time | 
+3 | After that, you can run the "startGuideline.bat" to start the guideline |
 4 | **Create a new Python file** or open an existing jupyter notebook file. Those buttons should appear.![Those buttons should appear.](docs/media/images/buttons.png) |
 5 | Click on **Start Button**('Start Guideline') to start guideline |
 
