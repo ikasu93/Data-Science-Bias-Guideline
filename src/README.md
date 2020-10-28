@@ -6,8 +6,6 @@ Requirements |  |
 Python3: | https://www.python.org/download/releases/3.0/ |
 Microsoft Visual C++ 14.0 (or greater) | https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017|
 
-![The Jupyter notebook extension guideline](docs/media/images/guideline_2.png)
-
 **Note**: please use https://forms.gle/9oWTBhh87yBAd3XS8 to evaluate this extension. If there are any problems, feel free to add issues in this repository.
 
 ## Instruction on using guideline via script on Windows
@@ -21,6 +19,7 @@ Nr. | Applied steps: |
 4 | **Create a new Python file** or open an existing jupyter notebook file. Those buttons should appear.![Those buttons should appear.](docs/media/images/buttons.png) |
 5 | Click on **Start Button**('Start Guideline') to start guideline |
 
+![The Jupyter notebook extension guideline](docs/media/images/guideline_2.png)
 
 ## (Alternatively) Instruction on using guideline via cmd
 Applied steps: (per cmd)
