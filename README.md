@@ -19,7 +19,7 @@ Type |  |
 Google Docs: | https://docs.google.com/document/d/1XB5sE8fEhTbT17800OyhlAe7jN6fT12wqT7j37ZyNBY/edit?usp=sharing |
 Google forms survey | https://forms.gle/tN75M9GMBgTj3rCH7 |
 
-Thank you very much.
+Thank you very much. This research can also be found as paper [at arxiv](https://arxiv.org/pdf/2009.09795.pdf).
 
 ## Description
 Feature | Description |
